@@ -67,7 +67,7 @@ a {
     width: 6vh;
     height: 6vh;
     border-radius: 50%;
-    top: 50%;
+    top: 200px;
     transform: translateY(-50%);
 }
 

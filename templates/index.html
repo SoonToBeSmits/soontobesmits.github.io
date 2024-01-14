@@ -180,7 +180,7 @@
                                 {{ accomodation['description'] | translate_val }}
                             </p>
                             <span><i class="fa fa-money" aria-hidden="true"></i> {{ accomodation['costs'] }}</span><br>
-                            <span><i class="fa fa-phone" aria-hidden="true"></i> {{ accomodation['phone'] }}</span><br>
+                            <span><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:{{ accomodation['phone'] }}">{{ accomodation['phone'] }}</a></span><br>
                             <span><i class="fa fa-globe" aria-hidden="true"></i>
                                 <a target="_blank" href="{{ accomodation['url'] }}">{{ accomodation['display_url']
                                     }}</a>
@@ -285,18 +285,17 @@
                 </div>
                 {% endfor %}
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#accommodationCarousel"
+            <button class="carousel-control-prev" type="button" data-bs-target="#whatToDoCarousel"
                 data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">{{ "PREVIOUS" | translate }}</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#accommodationCarousel"
+            <button class="carousel-control-next" type="button" data-bs-target="#whatToDoCarousel"
                 data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">{{ "NEXT" | translate }}</span>
             </button>
         </div>
-
     </div>
 
     <img class="img-fluid w-100" src="{{url}}img/Barns.png">
@@ -429,7 +428,7 @@
 
     <a href="#RSVP">
         <div class="position-fixed bottom-0 end-0 rounded-circle m-3 text-center shadow"
-            style="background-color: #CCD5AE; height: 80px; line-height: 80px; width: 80px; font-size: 16pt;">
+            style="background-color: #CCD5AE; height: 80px; line-height: 80px; width: 80px; font-size: 16pt; z-index: 999;">
             <p class="text-center">RSVP</p>
         </div>
     </a>
@@ -523,10 +522,8 @@
             if (entry.isIntersecting) {
                 if (square.classList.contains('right-4')) {
                     square.classList.add('square-animation-right');
-                    console.log("Right")
                 } else {
                     square.classList.add('square-animation-left');
-                    console.log("Left")
                 }
                 return;
             }
@@ -542,22 +539,11 @@
 
     clearSelect();
 
-</script>
-
-<script>
-    // Set the date we're counting down to
     var countDownDate = new Date("Sep 13, 2024 14:00:00").getTime();
 
-    // Update the count down every 1 second
     var x = setInterval(function () {
-
-        // Get today's date and time
         var now = new Date().getTime();
-
-        // Find the distance between now and the count down date
         var distance = countDownDate - now;
-
-        // Time calculations for days, hours, minutes and seconds
         var days = Math.floor(distance / (1000 * 60 * 60 * 24));
         var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
@@ -567,8 +553,6 @@
         document.getElementById("countdownHours").innerHTML = String(hours).padStart(2, '0')
         document.getElementById("countdownMinutes").innerHTML = String(minutes).padStart(2, '0')
         document.getElementById("countdownSeconds").innerHTML = String(seconds).padStart(2, '0')
-
-        // If the count down is finished, write some text
 
     }, 1000);
 </script>

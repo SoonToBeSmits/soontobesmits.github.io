@@ -140,7 +140,7 @@ CONTENT = {
                 """,
             },
             'costs': "£££",
-            'phone': "",
+            'phone': "+44 (0)7984 133024",
             'url': "https://foxtailbarns-venue.co.uk/woodland-guest-lodges/",
             'display_url': "foxtailbarns-venue.co.uk"
         },
@@ -149,9 +149,18 @@ CONTENT = {
             'img_url': f"{URL}img/The Tawny.jpg",
             'description': {
                 'en': """
-                    On-site but very expensive. We really need to write this out, lol.
+                   The Tawny is the accommodation next to the venue. It has a selection of unique accommodation 
+                   options with stunning surroundings. All rooms feature an outdoor spa on your private decking. 
+                   Even though this is next door to the venue, these are very expensive. They are to be seen as 
+                   somewhere you stay for a special treat or a special occasion rather than an average hotel. 
+                   Prices range from £250 up to £605 per night
                 """,
                 'nl': """
+                    The Tawny is de accommodatie naast de trouwlocatie. Het heeft een selectie van unieke 
+                    accommodatiemogelijkheden in een prachtige omgeving. Alle kamers beschikken een buitenspa op
+                    eigen terras. Ook al is dit naast de locatie, ze zijn erg duur. Dit moet worden gezien als een 
+                    plek waar je verblijft voor een speciale traktatie of een speciale gelegenheid, in plaats van 
+                    als een gemiddeld hotel. Prijzen variëren van £250 tot £605 per nacht
                 """,
             },
             'costs': "£££££",
