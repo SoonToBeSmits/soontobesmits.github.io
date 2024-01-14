@@ -15,13 +15,14 @@
 }
 
 /* General Styles */
-.category-divider h1{
-    font-family: HelloHoney;
+.category-divider .small{
+    font-family: FarmHouseTall;
     font-size: 36pt;
 }
 
-.category-divider span{
-    font-family: FarmHouseTall;
+.category-divider h1{
+    font-family: HelloHoney;
+    font-size: 36pt;
 }
 
 .hidden {
@@ -90,6 +91,14 @@ a {
 #countdown {
     color: #CCD5AE;
     font-family: DistantStrokeMedium;
+}
+
+#countdown h1{
+    font-size: 36pt !important;
+}
+
+#countdown h5{
+    font-size: 36pt !important;
 }
 
 .accordion-button:not(.collapsed) {
