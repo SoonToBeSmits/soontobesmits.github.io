@@ -10,7 +10,7 @@ import json
 """
 
 app = Flask(__name__)
-URL = "http://127.0.0.1:5000/"
+URL = "https://soontobesmits.github.io/"
 
 CONTENT = {
     'NAV_OUR_STORY': {'en': "Our Story", 'nl': "Ons Verhaal"},
