@@ -130,6 +130,13 @@ CONTENT = {
                     or Olivia
                 """,
                 'nl': """
+                    Deze natuur geïnspireerde Pods bevinden zich op het terrein en zijn gelegen in de bossen 
+                    van het fantastische landgoed. Ze zijn in verschillende maten en configuraties met verschillende 
+                    inchecktijden beshikbaar. De prijs begint bij £110 voor een tweepersoonskamer en £150 voor 
+                    een familiekamer.<br>
+                    <b>Houd er rekening mee dat deze pods zeer beperkt zijn, alleen via ons te boeken zijn, 
+                    en dat maximaal voor één nacht is!</b> Heb je interesse om er één te huren, neem dan 
+                    contact op met Ruben of Olivia
                 """,
             },
             'costs': "£££",
@@ -142,7 +149,7 @@ CONTENT = {
             'img_url': f"{URL}img/The Tawny.jpg",
             'description': {
                 'en': """
-                    On-site but very expensive
+                    On-site but very expensive. We really need to write this out, lol.
                 """,
                 'nl': """
                 """,
@@ -157,11 +164,16 @@ CONTENT = {
             'img_url': f"{URL}img/Premier Inn - Leek.jpg",
             'description': {
                 'en': """
-                    15 minutes from Foxtail Barns. Call ‘Leek Link Taxis’ on +44 (0)1538 399999 for the best
-                    taxi rates back to the Leek Premier Inn at the end of the night. Chargeable on-site
-                    parking is available at this hotel at £5 per night
+                    15 minutes from Foxtail Barns. Call 'Leek Link Taxis' on 
+                    <a href="tel:++441538399999">+44 (0)1538 399999</a> for the best taxi rates back to 
+                    the Leek Premier Inn at the end of the night. Chargeable on-site parking is available 
+                    at this hotel at £5 per night
                 """,
                 'nl': """
+                    15 minuten van Foxtail Barns. Bel 'Leek Link Taxis' op 
+                    <a href="tel:++441538399999">+44 (0)1538 399999</a> voor de beste taxitarieven terug 
+                    naar de Leek Premier Inn aan het eind van de nacht. Bij dit hotel is tegen een toeslag 
+                    privéparkeergelegenheid beschikbaar voor £5 per nacht
                 """,
             },
             'costs': "££",
@@ -174,13 +186,19 @@ CONTENT = {
             'img_url': f"{URL}img/Premier Inn - Hanley.jpg",
             'description': {
                 'en': """
-                    9 miles from Foxtail Barns, free parking. Just a ten-minute walk to the shops and cafés
-                    of Hanley town centre plus the cute pottery outlets. Two types of rooms, standard and
-                    plus. Theres also two types of room rates, flexible where you can pay cancel up to 1pm
-                    on the same day and you can pay on arrive, or advanced where you pay now and free
-                    cancellation up to 28 days before. Either king or twin rooms.
+                    9 miles from Foxtail Barns, with free parking. Just a ten-minute walk to the shops and cafés
+                    of Hanley town centre plus the cute pottery outlets. There are two types of rooms, standard and
+                    plus. Theres also two types of room rates, flexible (where you can pay cancel up to 1PM
+                    on the same day and you can pay on arrive), and advanced (where you pay now and get free
+                    cancellation up to 28 days before). Either king or twin rooms
                 """,
                 'nl': """
+                    15 km van Foxtail Barns, met gratis parkeergelegenheid. Slechts tien minuten lopen naar de winkels
+                    en cafés in het stadscentrum van Hanley, plus de schattige aardewerkwinkels. Er zijn twee soorten kamers, 
+                    standaard en plus. Er zijn ook twee soorten kamertarieven: "flexible" (waarbij je tot 13.00 uur op 
+                    dezelfde dag kan annuleren en bij aankomst kan betalen) en "advanced" (waarbij je nu betaalt en tot 28 
+                    dagen van tevoren gratis kan annuleren). Zowel kamers met kingsize bed of tweepersoonskamers met 2 aparte 
+                    bedden.
                 """,
             },
             'costs': "",
@@ -198,6 +216,9 @@ CONTENT = {
                     rooms from twin rooms, king rooms and family rooms.
                 """,
                 'nl': """
+                    15 km van Foxtail Barns. Binnen 800 meter de culturele wijk, vlakbij het Regent Theatre, 
+                    Potteries Museum, Art Gallery, en de Potteries Shopping Centre. Meerdere kamers, van 
+                    tweepersoonskamers, kingsize kamers en familiekamers.
                 """,
             },
             'costs': "££££",
@@ -210,17 +231,21 @@ CONTENT = {
             'img_url': f"{URL}img/DoubleTree by Hilton - Etruria.jpg",
             'description': {
                 'en': """
-                    25 minutes drive away from Foxtail Barn, Can do group bookings for more than 10 rooms.
-                    Do a multiple of rooms, from twins, to king, to suites. Located on Festival Retail park,
-                    near the Stoke Ski Centre and waterworld. The hotel has a full-service spa, pool,
-                    resturants. Have a multitude of rooms, from Queen twin rooms, to king beds to suites.
+                    25 minutes drive away from Foxtail Barns. Can do group bookings for more than 10 rooms.
+                    They offer multiple types of rooms, from twins, to king, to suites. Located on Festival 
+                    Retail park, near the Stoke Ski Centre and Waterworld. The hotel has a full-service spa, 
+                    pool, and resturants.
                 """,
                 'nl': """
+                    25 minuten rijden van Foxtail Barns. Bieden groepsreserveringen voor meer dan 10 kamers. 
+                    Meerdere soorten kamers bescikbaar, van tweelingen, tot koning, tot suites. Gelegen op 
+                    Festival Retail Park, vlakbij het Stoke Ski Centre en Waterworld. Het hotel beschikt over 
+                    een volledig uitgeruste spa, een zwembad en restaurants.
                 """,
             },
             'costs': "£££",
-            'phone': "",
-            'url': "https://www.hilton.com/en/hotels/manstgi-hilton-garden-inn-stoke-on-trent/",
+            'phone': "+44 (0)1782 609988",
+            'url': "https://www.hilton.com/en/hotels/mandidi-doubletree-stoke-on-trent/",
             'display_url': "www.hilton.com"
         }, 
         {
@@ -229,17 +254,22 @@ CONTENT = {
             'description': {
                 'en': """
                     The house has 3 bedrooms and sleeps 6 plus cot(s). All bedrooms feature handmade,
-                    wrought iron beds, 2 of them kingsize and the 3rd a twin room with 2 singles. Self
-                    Catering leek, weekly price £595. Also have B&B 6 non-smoking bedrooms, £72. Well
-                    equipped kitchen. two pubs within 10 minute walk, one canalside.
+                    wrought iron beds. Two of these rooms is kingsize and the third is a twin room with two singles. 
+                    Self catering, and the weekly price is £595. Also have B&B 6 non-smoking bedrooms for£72. Well
+                    equipped kitchen. Two pubs within 10 minute walk, one canalside.
                 """,
                 'nl': """
+                    Het huis heeft 3 slaapkamers en is geschikt voor 6 personen plus kinderbedje(s). Alle slaapkamers 
+                    zijn voorzien van handgemaakte, smeedijzeren bedden. Twee van deze kamers zijn kingsize en de 
+                    derde is een tweepersoonskamer met twee eenpersoonsbedden. Zelfcatering, en de wekelijkse prijs is 
+                    £595. Heeftook 6 B&B rookvrije slaapkamers voor £72. Goed uitgeruste keuken. Twee pubs binnen 10 
+                    minuten lopen, één aan de gracht.
                 """,
             },
             'costs': "£",
-            'phone': "",
-            'url': "",
-            'display_url': ""
+            'phone': "+44 (0)1538 383729",
+            'url': "https://www.peakweavers.co.uk/self-catering-property/",
+            'display_url': "www.peakweavers.co.uk"
         },   
         {
             'name': "White Hart Tea Room",
@@ -249,15 +279,19 @@ CONTENT = {
                     15 minutes drive from Foxtail Barns. Accommodation features eight individual en-suite
                     bedrooms. Due to the historic building, all rooms are accessed via stairs. In the heart
                     of leek, the Grace II listed building is opposite the historic Market Place. As well as
-                    a B&B its also a traditional tea room and sandwich bar.
+                    a B&B it's also a traditional tea room and sandwich bar.
                 """,
                 'nl': """
+                    15 minuten rijden van Foxtail Barns. De accommodatie beschikt over acht individuele slaapkamers 
+                    met eigen badkamer. Omdat het historische gebouw is zijn alle kamers alleen bereikbaar via de trap. 
+                    Het monumentale Grace II-gebouw ligt in het hart van Leek, tegenover de historische Grote Markt. 
+                    Naast een B&B is het ook een traditionele theesalon en een broodjesbar.
                 """,
             },
             'costs': "£",
-            'phone': "",
-            'url': "",
-            'display_url': ""
+            'phone': "+44 (0)1538 372122",
+            'url': "https://whiteharttearoom.co.uk/accommodation",
+            'display_url': "whiteharttearoom.co.uk"
         },   
         {
             'name': "Middle Cottage",
@@ -265,15 +299,19 @@ CONTENT = {
             'description': {
                 'en': """
                     7 miles from Foxtail Barns, 1 double Bedroom property. Built in the 1700s, and situated
-                    in the picturesque village of Endon, next to the village well dating back to 1845. Two
-                    village pubs are only a few minutes walk. Fully fitted kitchen included. Option of a
-                    guest bed and travel cot if required. Unsure of price, please enquire
+                    in the picturesque village of Endon. Two village pubs are only a few minutes walk. Fully 
+                    fitted kitchen included. Option of a guest bed and travel cot if required. Unsure of 
+                    price, please enquire
                 """,
                 'nl': """
+                    11 km van Foxtail Barns, 1 slaapkamer met tweepersoonsbed. Gebouwd in de 18e eeuw en 
+                    gelegen in het pittoreske dorpje Endon. Twee pubs liggen op slechts een paar minuten lopen. 
+                    Volledig ingerichte keuken inbegrepen. Optie voor een logeerbed en reiswieg indien nodig. 
+                    Onzeker over de prijs
                 """,
             },
-            'costs': "Unknown",
-            'phone': "+44 (0)1538 787664",
+            'costs': "?",
+            'phone': "+44 (0)1782 505089",
             'url': "https://www.middlecottageholidays.co.uk/",
             'display_url': "www.middlecottageholidays.co.uk"
         },   
@@ -284,14 +322,18 @@ CONTENT = {
                 'en': """
                     8 miles from Foxtail Barns. Allmore Cottage is a 1 kingsize bedroom property for 2
                     people. Prices range from £460 - £600 per week. Was originally a neglected farm building
-                    turn into a cottage. Fully fitted kitchen and a conservatory at the rear of the cottage,
+                    turned into a cottage. Fully fitted kitchen and a conservatory at the rear of the cottage,
                     ideal for relaxing and enjoying the views of the surrounding countryside
                 """,
                 'nl': """
+                    13 km van Foxtail Barns. Allmore Cottage is een accommodatie met 1 kingsize slaapkamer voor 
+                    2 personen. Prijzen variëren van £460 to £600 per week. Oorspronkelijk was het een verwaarloosde
+                    boerderij, omgebouwd tot een huis. Volledig ingerichte keuken en een serre aan de achterzijde 
+                    van het huis, ideaal om te ontspannen en te genieten van het uitzicht op het omliggende platteland
                 """,
             },
             'costs': "£££",
-            'phone': "01782 505535",
+            'phone': "+44 (0)1782 505535",
             'url': "http://www.allmorecottageholidays.co.uk",
             'display_url': "www.allmorecottageholidays.co.uk"
         },   
@@ -300,17 +342,22 @@ CONTENT = {
             'img_url': f"{URL}img/Rose Cottages - Endon.jpg",
             'description': {
                 'en': """
-                    7 miles from Foxtail Barns. Two Cottages with 3 Bedrooms Each, can sleep up to 8 Adult
-                    guests and 1 Infant each with excellent parking and gardens. Hot Tub hire available.
-                    prices from £325 per night (2 night stay) or £1075 per week (for up to 6 guests). Each
+                    7 miles from Foxtail Barns. Two Cottages with 3 Bedrooms each, can sleep up to 8 Adult
+                    guests with excellent parking and gardens. Hot Tub hire available.
+                    Prices from £325 per night (2 night stay) or £1075 per week (for up to 6 guests). Each
                     property features a fully equipped kitchen, comfortable living room with log burner,
                     dining area for 6-8 people and fully enclosed rear garden.
                 """,
                 'nl': """
+                    11 km van Foxtail Barns. Twee huisjes met elk 3 slaapkamers, geschikt voor maximaal 8 
+                    volwassenen, elk met uitstekende parkeergelegenheid en tuinen. Hot Tub-verhuur beschikbaar. 
+                    Prijzen vanaf £325 per nacht (2 nachten) of £1075 per week (voor maximaal 6 personen). 
+                    Elke woning beschikt over een volledig uitgeruste keuken, een comfortabele woonkamer met 
+                    houtkachel, een eetruimte voor 6-8 personen en een volledig omheinde achtertuin.
                 """,
             },
             'costs': "£££",
-            'phone': "",
+            'phone': "+44 (0)1782 645177",
             'url': "https://rosecottagesendon.co.uk/",
             'display_url': "rosecottagesendon.co.uk"
         },   
@@ -319,17 +366,22 @@ CONTENT = {
             'img_url': f"{URL}img/Spring Cottage.jpg",
             'description': {
                 'en': """
-                    17 minutes from Foxtail Barns. Sleeps 6. 3 bedrooms, one king size, one double one with
-                    twin beds. The kitchen has been newly fitted with all mod cons making this a lovely
+                    17 minutes from Foxtail Barns. Sleeps six. Three bedrooms, one king size, one double,
+                    and one with twin beds. The kitchen has been newly fitted with making this a lovely
                     space to prepare delightful meals. The grounds outside Spring Cottage offer guests a
                     place to relax and do some alfresco dining in the warmer months. Two livingrooms fitted
                     with log burners. Unsure of price, please enquire
                 """,
                 'nl': """
+                    17 minuten van Foxtail Barns. Slaapt zes. Drie slaapkamers: één kingsize bed, één 
+                    tweepersoonsbed en één met twee eenpersoonsbedden. De keuken is nieuw ingericht, 
+                    waardoor dit een heerlijke ruimte is om heerlijke maaltijden te bereiden. Het terrein 
+                    buiten Spring Cottage biedt gasten een plek om te ontspannen en in de warmere maanden 
+                    buiten te dineren. Twee woonkamers voorzien van houtkachels. Onzeker over de prijs
                 """,
             },
-            'costs': "Unknown",
-            'phone': "",
+            'costs': "?",
+            'phone': "+44 (0)7817914020",
             'url': "https://springcottageholidaylet.co.uk/",
             'display_url': "springcottageholidaylet.co.uk"
         }
@@ -343,40 +395,57 @@ CONTENT = {
         'en': """
             The best airport to land in is Manchester which is a 40-50 minute drive
             to Stoke-On-Trent. If you're flying from the Netherlands the best airlines we can recommened are
-            Easyjet (https://www.easyjet.com) and KLM (https://www.klm.com). Easyjet is usually the
-            cheapest option and usually relable, whereas KLM is more luxurious and offers a snack
-            half way through the flight. The flight is usually around 50 minutes long, and remember
-            you need to be at the airport 2 hours before your flight time! We do not recommend
-            Ryanair, we have had negative experience of randomly cancelled flights.
+            Easyjet (<a href="https://www.easyjet.com/">www.easyjet.com</a>) and KLM 
+            (<a href="https://www.klm.com/">www.klm.com</a>). Easyjet is usually the cheapest option and 
+            usually relable, whereas KLM is more luxurious and offers a snack half way through the flight. 
+            The flight is usually around 50 minutes long, and remember that you need to be at the airport two 
+            hours before your flight time! We do not recommend Ryanair, we have had negative experience of 
+            randomly cancelled flights.
         """, 
         'nl': """
+            De beste luchthaven optie is Manchester, op 40-50 minuten rijden van Stoke-On-Trent. Als je vanuit 
+            Nederland vliegt, zijn de beste luchtvaartmaatschappijen die we kunnen aanbevelen Easyjet 
+            (<a href="https://www.easyjet.com/">www.easyjet.com</a>) en KLM 
+            (<a href="https://www.klm.com/">/www.klm.com</a>). Easyjet is doorgaans de goedkoopste optie en 
+            erg betrouwbaar, terwijl KLM luxer is en halverwege de vlucht een snack aanbiedt. De vlucht duurt 
+            meestal ongeveer 50 minuten. Onthoud dat je twee uur vóór de vluchttijd op de luchthaven moet zijn! 
+            Wij raden Ryanair niet aan, wij hebben negatieve ervaringen met willekeurig geannuleerde vluchten.
         """
     },
     'PUBLIC_TRANSPORT': {'en': "Public Transport", 'nl': "Openbaar Vervoer"},
     'PUBLIC_TRANSPORT_DESC': {
         'en': """
             There are two modes of public transport in the UK. These are train and
-            bus. If you're getting a train from the airport to stoke, or because stoke is in the
-            centre of the UK and you want to explore the major cities, using the train will be
-            vital. Unlike the Netherlands and other european countries, you need to buy train
-            tickets per journey, you can do this at the train station or more relably be using the
-            trainline website/app (https://www.thetrainline.com). If you're planning on travelling
-            we recommened downloading the app. All you need to do it put your current location and
-            where you're travelling too and it will tell you the different times and prices, we
-            advise you to avoid peak times. If you're looking at travelling by bus around stoke on
-            trent, the most reliable bus service, is the First bus (https://www.firstbus.co.uk), on
-            their website you can plan your journey or see when the next bus will be!
+            bus. If you're getting a train from the airport to Stoke-On-Trent, or if you want to explore the 
+            major cities of the UK, using the train will be vital. Unlike in The Netherlands and other european 
+            countries, you need to buy train tickets per journey. You can do this at the train station or more 
+            relably by using the Trainline website/app (<a href="https://www.thetrainline.com/">www.thetrainline.com</a>). 
+            If you're planning on travelling we recommened downloading the app. All you need to do it put your current 
+            location and where you're travelling to and it will tell you the different times and prices (we do            
+            advise you to avoid peak times). If you're looking at travelling by bus around Stoke-On-Trent, the 
+            most reliable bus service is the First bus (<a href="https://www.firstbus.co.uk/">www.firstbus.co.uk</a>), 
+            on their website you can plan your journey or see when the next bus will be!
         """, 
         'nl': """
+            Er zijn twee vormen van openbaar vervoer in Groot-Brittannië; de trein en bus. Als je vanaf het vliegveld 
+            de trein naar Stoke-On-Trent neemt, of als je de grote steden van Groot-Brittannië wilt verkennen, is het 
+            gebruik van de trein van cruciaal belang. Anders dan in Nederland en andere Europese landen moet je 
+            treinkaartjes per reis kopen. Je kunt dit doen op het treinstation of op een betrouwbaardere manier door 
+            de website/app van Trainline te gebruiken (<a href="https://www.thetrainline.com/">www.thetrainline.com</a>). 
+            Als je van plan bent te reizen, raden wij u aan de app te downloaden. Het enige dat je hoeft te doen, is je 
+            huidige locatie en waar je naartoe reist in te voeren. Je krijgt dan de verschillende tijden en prijzen te zien 
+            (we adviseren piektijden te vermijden). Als je met de bus rond Stoke-On-Trent wilt reizen, is de meest betrouwbare 
+            busdienst de First bus (<a href="https://www.firstbus.co.uk/">www.firstbus.co .uk</a>), op hun website kun je
+            een reis plannen of zien wanneer de volgende bus vertrekt!
         """
     },
     'HIRED_TRANSPORT': {'en': "Hired Transport", 'nl': "Gehuurd Vervoer"},
     'HIRED_TRANSPORT_DESC': {
         'en': """
             There are lots of local taxi and mini-bus services. If there is a large
-            group of travellers on the same flight and looking at hiring a mini-bus to travel
-            towards Stoke on Trent, we are happy to help accommodate this and pass along some
-            mini-bus numbers along. There are a lot of taxi services in Stoke on Trent, these
+            group of travellers on the same flight and you are looking at hiring a mini-bus to 
+            travel towards Stoke-on-Trent, then we are happy to help accommodate this and pass along some
+            mini-bus numbers. There are a lot of taxi services in Stoke-on-Trent, these
             include Intercity (<a href="tel:+441782855855">+44 (0)1782 855855</a>), those staying in
             Leek can use Leek Link Taxis' (<a href="tel:+441538399999">+44 (0)1538 399999</a>),
             Lucky Seven (<a href="tel:+441782333333">+44 (0)1782 333333</a>), City Cabs (<a
@@ -387,6 +456,17 @@ CONTENT = {
             you!
         """, 
         'nl': """
+            Er zijn veel lokale taxi- en minibusdiensten. Als er een grote groep reizigers op dezelfde vlucht 
+            zitten en je overweegt een minibus te huren om richting Stoke-on-Trent te reizen, dan helpen wij 
+            je graag hierbij en geven we minibusnummers door. Er zijn veel taxidiensten in Stoke-on-Trent, 
+            waaronder Intercity (<a href="tel:+441782855855">+44 (0)1782 855855</a>), degenen die in Leek 
+            verblijven kunnen Leek Link gebruiken Taxi's' (<a href="tel:+441538399999">+44 (0)1538 399999</a>), 
+            Lucky Seven (<a href="tel:+441782333333">+44 (0)1782 333333</ a>), stadscabines 
+            (<a href="tel:+441782888888">+44 (0)1782 888888</a>), Magnum Private Hire 
+            (<a href="tel:+441782819819">+44 (0)1782 819819</a>). Als alternatief kan je een app genaamd 
+            "Take me" gebruiken, een app waarmee je binnen enkele seconden een voertuig kan boeken, de chauffeur kan 
+            bekijken en zijn voortgang kan volgen, of je kan Uber gebruiken, afhankelijk van wat het 
+            gemakkelijkst voor je is!
         """
     },
     
@@ -763,7 +843,7 @@ CONTENT = {
     'HOW_MANY_INVITE': {'en': "How many people are on your invite?", 'nl': "Hoeveel personen staan op je uitnodiging?"},
     'HOW_MANY_ATTEND': {'en': "How many people of these will attend?", 'nl': "Hoeveel van deze personen komen?"},
     'PROVIDE_NAMES': {'en': "Please provide their names below", 'nl': "Vul hier a.u.b. hun namen in"},
-    'DIETARY_REQUIREMENTS': {'en': "Does anyone have any dietary requirements? Please list these", 'nl': "Heeft iemand dieetwensen? Gelieve deze hier te vermelden"},
+    'DIETARY_REQUIREMENTS': {'en': "Does anyone have any dietary requirements?", 'nl': "Heeft iemand dieetwensen of -beperkingen?"},
     'SUBMIT_RSVP': {'en': "Submit RSVP", 'nl': "Verstuur RSVP"},
 }
 
@@ -802,4 +882,4 @@ def send_media(filename):
 
 if __name__ == "__main__":
     app.debug = True
-    app.run()
+    app.run(host='0.0.0.0')

@@ -14,7 +14,23 @@
     src: url("/fonts/Distant_Stroke_Medium.otf");
 }
 
+@font-face {
+    font-family: Halium;
+    src: url("/fonts/Halimun.ttf");
+}
+
+@font-face {
+    font-family: NotoSerifDisplay;
+    src: url("/fonts/NotoSerifDisplay.woff2");
+}
+
+
 /* General Styles */
+.nav-item{
+    font-family: NotoSerifDisplay !important;
+    /* font-size: 1.5rem; */
+}
+
 .category-divider .small{
     font-family: FarmHouseTall;
     font-size: 16pt;
@@ -89,16 +105,16 @@ a {
 }
 
 #countdown {
-    color: #CCD5AE;
+    /* color: #CCD5AE; */
     font-family: DistantStrokeMedium;
 }
 
 #countdown h1{
-    font-size: 52pt !important;
+    font-size: 48pt !important;
 }
 
 #countdown h5{
-    font-size: 36pt !important;
+    font-size: 24pt !important;
 }
 
 .accordion-button:not(.collapsed) {
