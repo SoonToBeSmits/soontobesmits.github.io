@@ -1,14 +1,29 @@
+/* Fonts */
 @font-face {
     font-family: HelloHoney;
     src: url("/fonts/hello_honey.otf");
 }
 
+@font-face {
+    font-family: FarmHouseTall;
+    src: url("/fonts/farmhouse_tall.ttf");
+}
+
+@font-face {
+    font-family: DistantStrokeMedium;
+    src: url("/fonts/Distant_Stroke_Medium.otf");
+}
+
+/* General Styles */
 .category-divider h1{
     font-family: HelloHoney;
     font-size: 36pt;
 }
 
-/* General Styles */
+.category-divider span{
+    font-family: FarmHouseTall;
+}
+
 .hidden {
     display: none;
 }
@@ -72,10 +87,9 @@ a {
     color: inherit;
 }
 
-#countdown h5,
-#countdown h1,
-#RSVPBanner {
+#countdown {
     color: #CCD5AE;
+    font-family: DistantStrokeMedium;
 }
 
 .accordion-button:not(.collapsed) {
