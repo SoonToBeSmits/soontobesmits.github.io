@@ -60,7 +60,7 @@
         </div>
     </nav>
 
-    <div class="w-100" id="top">
+    <div class="w-100 mt-5" id="top">
         <img class="img-fluid w-100" src="{{url}}img/us_2.jpg">
     </div>
 
@@ -180,7 +180,8 @@
                                 {{ accomodation['description'] | translate_val }}
                             </p>
                             <span><i class="fa fa-money" aria-hidden="true"></i> {{ accomodation['costs'] }}</span><br>
-                            <span><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:{{ accomodation['phone'] }}">{{ accomodation['phone'] }}</a></span><br>
+                            <span><i class="fa fa-phone" aria-hidden="true"></i> <a
+                                    href="tel:{{ accomodation['phone'] }}">{{ accomodation['phone'] }}</a></span><br>
                             <span><i class="fa fa-globe" aria-hidden="true"></i>
                                 <a target="_blank" href="{{ accomodation['url'] }}">{{ accomodation['display_url']
                                     }}</a>
@@ -211,8 +212,7 @@
             <div class="carousel-inner w-75 mx-auto">
                 <div class="carousel-item active">
                     <div class="card w-100">
-                        <img style="height: 280px; object-fit: cover;"
-                            src="{{url}}img/Foxtail-Barns.jpg"
+                        <img style="height: 280px; object-fit: cover;" src="{{url}}img/Foxtail-Barns.jpg"
                             class="card-img-top">
                         <div class="card-body">
                             <h5 class="card-title">{{ "FLIGHTS" | translate }}</h5>
@@ -222,8 +222,7 @@
                 </div>
                 <div class="carousel-item">
                     <div class="card w-100">
-                        <img style="height: 280px; object-fit: cover;"
-                            src="{{url}}img/Foxtail-Barns-Orangery.jpg"
+                        <img style="height: 280px; object-fit: cover;" src="{{url}}img/Foxtail-Barns-Orangery.jpg"
                             class="card-img-top">
                         <div class="card-body">
                             <h5 class="card-title">{{ "PUBLIC_TRANSPORT" | translate }}</h5>
@@ -233,8 +232,7 @@
                 </div>
                 <div class="carousel-item">
                     <div class="card w-100">
-                        <img style="height: 280px; object-fit: cover;"
-                            src="{{url}}img/Foxtail-Barns-Party.jpg"
+                        <img style="height: 280px; object-fit: cover;" src="{{url}}img/Foxtail-Barns-Party.jpg"
                             class="card-img-top">
                         <div class="card-body">
                             <h5 class="card-title">{{ "HIRED_TRANSPORT" | translate }}</h5>
@@ -285,13 +283,11 @@
                 </div>
                 {% endfor %}
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#whatToDoCarousel"
-                data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#whatToDoCarousel" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">{{ "PREVIOUS" | translate }}</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#whatToDoCarousel"
-                data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#whatToDoCarousel" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">{{ "NEXT" | translate }}</span>
             </button>
@@ -374,7 +370,8 @@
                             <div class="row">
                                 <div class="col-md-6 col-sm-12 mt-3">
                                     <div class="form-floating">
-                                        <select required name="howManyInvited" class="form-select" id="floatingSelectInvite">
+                                        <select required name="howManyInvited" class="form-select"
+                                            id="floatingSelectInvite">
                                             {{ "PLEASE_SELECT" | translate_select("disabled selected value=\"\"") }}
                                             {{ "ONE" | translate_select("value=\"1\"") }}
                                             {{ "TWO" | translate_select("value=\"2\"") }}
@@ -388,7 +385,8 @@
 
                                 <div class="col-md-6 col-sm-12 mt-3">
                                     <div class="form-floating">
-                                        <select required name="howManyAttend" class="form-select" id="floatingSelectAttend">
+                                        <select required name="howManyAttend" class="form-select"
+                                            id="floatingSelectAttend">
                                             {{ "PLEASE_SELECT" | translate_select("disabled selected value=\"\"") }}
                                             {{ "NONE" | translate_select("value=\"0\"") }}
                                             {{ "ONE" | translate_select("value=\"1\"") }}
@@ -432,6 +430,8 @@
             <p class="text-center">RSVP</p>
         </div>
     </a>
+
+    <div id="RSCPConfirmationAlert" class="fixed-top p-3 mt-5"></div>
 
 
 </body>
@@ -507,8 +507,8 @@
         clearSelect();
     };
 
-    function clearSelect(){
-        ["floatingSelectInvite", "floatingSelectAttend"].forEach(function (elementName){
+    function clearSelect() {
+        ["floatingSelectInvite", "floatingSelectAttend"].forEach(function (elementName) {
             var dropdown = document.getElementById(elementName);
             var visibleOptions = Array.from(dropdown.options).filter(option => !option.classList.contains('hidden'));
             dropdown.selectedIndex = Array.from(dropdown.options).indexOf(visibleOptions[0]);
@@ -549,12 +549,31 @@
         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-        document.getElementById("countdownDays").innerHTML = String(days).padStart(2, '0')
-        document.getElementById("countdownHours").innerHTML = String(hours).padStart(2, '0')
-        document.getElementById("countdownMinutes").innerHTML = String(minutes).padStart(2, '0')
-        document.getElementById("countdownSeconds").innerHTML = String(seconds).padStart(2, '0')
+        document.getElementById("countdownDays").innerHTML = String(days).padStart(2, '0');
+        document.getElementById("countdownHours").innerHTML = String(hours).padStart(2, '0');
+        document.getElementById("countdownMinutes").innerHTML = String(minutes).padStart(2, '0');
+        document.getElementById("countdownSeconds").innerHTML = String(seconds).padStart(2, '0');
 
     }, 1000);
+
+    const alertPlaceholder = document.getElementById('RSCPConfirmationAlert');
+    const showAlert = (message) => {
+        const wrapper = document.createElement('div');
+        wrapper.innerHTML = [
+            `<div class="alert alert-success alert-dismissible text-center" role="alert">`,
+            `   <div>${message}</div>`,
+            '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+            '</div>'
+        ].join('');
+
+        alertPlaceholder.append(wrapper);
+    }
+
+    if (window.location.search.includes("sentRSVP")){
+        showAlert('🇬🇧: Thank you for submitting your RSVP!<br>🇳🇱: Bedankt voor het invullen van de RSVP!');
+        window.history.pushState("", "", "/");
+    }
+
 </script>
 
 </html>
