@@ -494,10 +494,15 @@ CONTENT = {
                     for guests of all ages. The 10 main rollercoasters are the stars of the show, each with 
                     record-breaking elements designed to thrill and delight anyone brave enough to ride. With 
                     20 attractions aimed at young children and families, Alton Towers is the only place in the 
-                    UK where you can meet some of CBeebies best loved characters.
+                    UK where you can meet some of CBeebies best loved characters
                 """,
                 'nl': """
-                    Alton Towers Resort is een themapark en resortcomplex in Staffordshire, Engeland, vlakbij het dorp Alton. Alton Towers Resort heeft meer dan 40 attracties voor gasten van alle leeftijden. De 10 belangrijkste achtbanen zijn de sterren van de show, elk met recordbrekende elementen ontworpen om iedereen die dapper genoeg is om te rijden te laten huiveren en genieten. Met 20 attracties gericht op jonge kinderen en gezinnen is Alton Towers de enige plek in het Verenigd Koninkrijk waar je een aantal van CBeebies' meest geliefde personages kunt ontmoeten.
+                    Alton Towers Resort is een themapark en resortcomplex in Staffordshire, Engeland, vlakbij het 
+                    dorp Alton. Alton Towers Resort heeft meer dan 40 attracties voor gasten van alle leeftijden. 
+                    De 10 belangrijkste achtbanen zijn de sterren van de show, elk met recordbrekende elementen 
+                    ontworpen om iedereen die dapper genoeg is om te rijden te laten huiveren en genieten. Met 
+                    20 attracties gericht op jonge kinderen en gezinnen is Alton Towers een van de leukste plekken
+                    in de UK
                 """,
             },
             'costs': "3+ £39",
@@ -516,7 +521,11 @@ CONTENT = {
                     attractions in the UK. Guests walk along the 3/4 of a mile pathway, amongst the monkeys, and see 
                     exactly how they live and behave in the wild.
                 """,
-                'nl': """Als je op zoek bent naar een leuk dagje uit met een verschil, zoek dan niet verder. Trentham Monkey Forest is een toevluchtsoord voor bedreigde berberapen. De natuurlijke gedragingen van de apen zijn recht voor je ogen te zien, waardoor het een van de meest fascinerende en bijzondere attracties in het Verenigd Koninkrijk is. Gasten lopen over een pad van 3,5 km tussen de apen door en zien precies hoe ze in het wild leven en zich gedrage
+                'nl': """
+                    Als je op zoek bent naar een leuk dagje uit, zoek dan niet verder. Trentham Monkey Forest is een 
+                    toevluchtsoord voor bedreigde berberapen. Het natuurlijke gedrag van de apen is recht voor je ogen 
+                    te zien, waardoor dit een van de meesst facinerede en bijzondere attracties in de UK is. Gasten lopen 
+                    over een pad van 1.2 km tussen de apen door en zien precies hoe ze in het wild leven en zich gedragen
                 """,
             },
             'costs': "Adult: £12.00 Children: £9.50",
@@ -535,9 +544,16 @@ CONTENT = {
                     trail, fab childrens adventure playground with the UK's first barefoot walk, a family-friendly maze, 
                     mile-long Capability Brown lake with seasonal boat and train trips. Trentham Monkey Forest, Trentham 
                     Treetop Adventure and Trentham Shopping Village with 50 shops and 14 cafes and restaurants can also 
-                    be found at The Trentham Estate. You'll find something for everyone here.
+                    be found at The Trentham Estate. You'll find something for everyone here
                 """,
-                'nl': """Het Trentham Estate is de thuisbasis van de bekroonde Trentham Gardens met The Italian Garden van Tom Stuart-Smith, het Floral Labyrinth en Rivers of Grass van Piet Oudolf en uitgestrekte wilde bloemen- en bosweidebeplantingen van Nigel Dunnett. Een fascinerend sprookjesachtig sculpturenpad, een fantastische kinderspeeltuin met de eerste blotevoetenwandeling in het Verenigd Koninkrijk, een gezinsvriendelijk doolhof, een kilometerslang Capability Brown-meer met seizoensgebonden boot- en treinuitstapjes. Trentham Monkey Forest, Trentham Treetop Adventure en Trentham Shopping Village met 50 winkels en 14 cafés en restaurants zijn ook te vinden op The Trentham Estate. Hier vind je voor elk wat wils.
+                'nl': """
+                    Het Trentham Estate is de thuisbasis van de bekroonde Trentham Gardens met The Italian Garden van 
+                    Tom Stuart-Smith, het Floral Labyrinth en Rivers of Grass van Piet Oudolf en uitgestrekte wilde bloemen- 
+                    en bosweidebeplantingen van Nigel Dunnett. Een fascinerend sprookjesachtig sculpturenpad, een fantastische 
+                    kinderspeeltuin met de eerste blotevoetenwandeling in het Verenigd Koninkrijk, een gezinsvriendelijk doolhof,
+                    een kilometerslang Capability Brown-meer met seizoensgebonden boot- en treinuitstapjes. Trentham Monkey Forest,
+                     Trentham Treetop Adventure en Trentham Shopping Village met 50 winkels en 14 cafés en restaurants zijn ook te 
+                     vinden op The Trentham Estate. Hier vind je voor elk wat wils
                 """,
             },
             'costs': "£13 Children: £9.50",
@@ -558,7 +574,14 @@ CONTENT = {
                     tiki-themed mini golf courses, and the new M Club Spa and Fitness facility, so there has never been more 
                     choice for the best leisure experiences in Staffordshire!            
                 """,
-                'nl': """Het nummer 1 tropische overdekte aquapark in het Verenigd Koninkrijk ligt in het Waterworld Leisure Resort, in het hart van de Midlands, Stoke-on-Trent! Waterworld Aqua Park is het hele jaar door geopend en is een episch avontuur voor het hele gezin, met meer dan 30 verschillende attracties waaronder Thunderbolt, de eerste valdeurwaterglijbaan in het Verenigd Koninkrijk! Er is ook een buitenzwembad voor wie in de zomermaanden van de zon wil genieten! Het Waterworld Leisure Resort is ook de thuisbasis van Adventure Mini Golf met twee 18-holes minigolfbanen met een tiki-thema, en de nieuwe M Club Spa en fitnessruimte, dus er is nog nooit zoveel keuze geweest voor de beste vrijetijdsbelevenissen in Staffordshire!
+                'nl': """
+                    Het nummer 1 tropische overdekte aquapark in de UK ligt in het Waterworld Leisure Resort, in het hart 
+                    van de Midlands, Stoke-on-Trent! Waterworld Aqua Park is het hele jaar door geopend en is een episch 
+                    avontuur voor het hele gezin, met meer dan 30 verschillende attracties waaronder Thunderbolt, de eerste 
+                    valdeurwaterglijbaan in de UK. Er is ook een buitenzwembad voor wie in de zomermaanden van de zon wil 
+                    genieten! Het Waterworld Leisure Resort is ook de thuisbasis van Adventure Mini Golf met twee 18-holes 
+                    minigolfbanen met een tiki-thema, en de nieuwe M Club Spa en fitnessruimte, dus er is nog nooit zoveel 
+                    keuze geweest voor de beste vrijetijdsbelevenissen in Staffordshire!
                 """,
             },
             'costs': "Adult: £22 Children: £20",
@@ -579,8 +602,14 @@ CONTENT = {
                     With constant work going into improving their slope surface, they are proud to claim it as one of the best in 
                     the country.            
                 """,
-                'nl': """Stoke Ski Centre is een van de toonaangevende droge pistes in het Verenigd Koninkrijk en biedt een breed scala aan activiteiten voor alle leeftijden. Van ski- en boardcoaching en lessen van topkwaliteit, geweldige tubingpartypakketten voor kinderen vanaf 2 jaar, een gloednieuw terreinpark met een combinatie van een big kicker en een quarterpipe, tot een 140 meter lange wedstrijdpiste.
-    Hun faciliteit is speciaal ontworpen om de bergen na te bootsen en je te helpen trainen of gewoon om plezier te hebben. Er wordt constant gewerkt aan het verbeteren van het oppervlak van de piste en ze zijn er trots op dat ze kunnen zeggen dat het een van de beste in het land is.
+                'nl': """
+                    Stoke Ski Centre is een van de beste droge pistes in het Verenigd Koninkrijk en biedt een breed scala aan 
+                    activiteiten voor alle leeftijden. Van ski- en boardcoaching en lessen van topkwaliteit, geweldige 
+                    tubingpartypakketten voor kinderen vanaf 2 jaar, een gloednieuw terreinpark met een combinatie van een big 
+                    kicker en een quarterpipe, tot een 140 meter lange wedstrijdpiste.<br>
+                    Hun faciliteit is speciaal ontworpen om de bergen na te bootsen en je te helpen trainen of gewoon om plezier
+                    te hebben. Er wordt constant gewerkt aan het verbeteren van het oppervlak van de piste en ze zijn er trots op
+                    dat ze kunnen zeggen dat het een van de beste in het land is.
                 """,
             },
             'costs': "Adult £32 Children: £22",
