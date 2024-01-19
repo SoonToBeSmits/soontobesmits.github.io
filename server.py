@@ -32,7 +32,7 @@ CONTENT = {
     # Our Story Section
     'OUR_STORY': {'en': "Our Story", 'nl': "Ons Verhaal"},
     'WITH_LOVE': {'en': "WITH LOVE", 'nl': "MET LIEFDE"},
-    'HOW_WE_MET': {'en': "How We Met", 'nl': "Hoe We Ontmoete"},
+    'HOW_WE_MET': {'en': "How We Met", 'nl': "Ontmoeting"},
     'HOW_WE_MET_DESC': {
         'en': """
             Ruben went shopping for lunch and decided to buy a single banana. He took a picture for a 
@@ -41,15 +41,15 @@ CONTENT = {
             to Ruben, and a group chat (as well as our journey) was started -all thanks to a single banana
         """, 
         'nl': """
-            Ruben deed boodschappen doen voor zijn lunch en besloot een losse banaan te kopen. Hij maakte een 
-            foto voor een vriend, die deze aan een ander doorgaf, voordat deze Olivia bereikte. Ze zag een 
-            verdrietig gezicht in de vlekken van de banaan, tekende digitaal een klein gezichtje en stuurde 
-            het terug naar haar vriend. Dit werd teruggestuurd naar Ruben, en een groepschat (evenals onze reis) 
-            werd gestart - allemaal dankzij een enkele banaan  
+            Ruben kocht voor zijn lunch een banaan en stuurde een foto naar een vriend. Die stuurde de foto 
+            door naar een ander, voordat deze Olivia bereikte. Ze zag een verdrietig gezicht in de vlekken van de 
+            banaan, tekende digitaal een klein gezichtje en stuurde het terug naar haar vriend. Dit werd 
+            teruggestuurd naar Ruben, en een groepschat (evenals onze reis) werd gestart - allemaal dankzij een 
+            enkele banaan  
         """
     },
     'HOW_WE_MET_DATE': {'en': "20 Oct. 2017", 'nl': "20 okt. 2017"},
-    'STARTED_DATING': {'en': "Started Dating", 'nl': "Begonnen Met Daten"},
+    'STARTED_DATING': {'en': "Started Dating", 'nl': "Verkering"},
     'STARTED_DATING_DESC': {
         'en': """
             Ruben flew over to England and joined Olivia and her family on a trip to Cornwall. One
@@ -96,18 +96,25 @@ CONTENT = {
         'nl': """
             Ruben en Olivia gingen met haar familie naar Southport om het jubileum van haar ouders te vieren. 
             Tijdens een wandeling op het strand tijdens zonsondergang op een avond, bespraken ze hun relatie, 
-            met al zijn vele hoogtepunten. Ruben ging op één knie zitten en vroeg Olivia ten huwelijk. Olivia, 
-            overweldigd door vreugde, zei ja, en sindsdien zijn ze opgetogen bezig met het plannen van de bruiloft!
+            met al zijn vele hoogtepunten. Ruben ging op één knie zitten en vroeg Olivia ten huwelijk. Olivia 
+            was helemaal in de wolken en zei natuurlijk ja! Sindsdien zijn ze opgetogen bezig met het plannen 
+            van de bruiloft!
         """
     },
     'HE_PROPOSED_DATE': {'en': "29 Aug. 2021", 'nl': "29 aug. 2021"},
     'OUR_WEDDING_DAY': {'en': "Our Wedding Day", 'nl': "Onze Trouwdag"},
     'OUR_WEDDING_DAY_DESC': {
         'en': """
-            Olivia and Ruben have booked their wedding for Friday the 13th of September, 2024 at the Foxtail Barns, Consall, England. This is only the start of our journey, and we can't find to find out what wonders life has in store for us. It would be wonderful to share this beautiful moment with you; we hope to see you there! 
+            Olivia and Ruben have booked their wedding for Friday the 13th of September, 2024 at the Foxtail 
+            Barns, Consall, England. This is only the start of our journey, and we can't find to find out what 
+            wonders life has in store for us. It would be wonderful to share this beautiful moment with you; 
+            we hope to see you there! 
         """, 
         'nl': """
-            Olivia en Ruben hebben hun bruiloft geboekt voor vrijdag 13 september 2024 in de Foxtail Barns in Consall, Engeland. Dit is nog maar het begin van onze reis en we kunnen niet wachten om te ontdekken welke wonderen het leven voor ons in petto heeft. Het zou geweldig zijn om dit mooie moment met jullie te delen; we hopen jullie daar te zien!
+            Olivia en Ruben hebben hun bruiloft geboekt voor vrijdag 13 september 2024 in de Foxtail Barns in 
+            Consall, Engeland. Dit is nog maar het begin van onze reis en we kunnen niet wachten om te ontdekken 
+            welke wonderen het leven voor ons in petto heeft. Het zou geweldig zijn om dit mooie moment met 
+            jullie te delen; we hopen jullie daar te zien!
         """
     },
     'OUR_WEDDING_DAY_DATE': {'en': "13 Sep. 2024", 'nl': "13 sep. 2024"},
@@ -207,7 +214,7 @@ CONTENT = {
                     standaard en plus. Er zijn ook twee soorten kamertarieven: "flexible" (waarbij je tot 13.00 uur op 
                     dezelfde dag kan annuleren en bij aankomst kan betalen) en "advanced" (waarbij je nu betaalt en tot 28 
                     dagen van tevoren gratis kan annuleren). Zowel kamers met kingsize bed of tweepersoonskamers met 2 aparte 
-                    bedden.
+                    bedden
                 """,
             },
             'costs': "",
@@ -222,12 +229,12 @@ CONTENT = {
                 'en': """
                     9 miles from Foxtail Barns. Within half a mile of the cultural quarter, near to the
                     Regent Theatre, Potteries Museum, Art Gallery and Potteries Shopping Centre. Multiple
-                    rooms from twin rooms, king rooms and family rooms.
+                    rooms from twin rooms, king rooms and family rooms
                 """,
                 'nl': """
                     15 km van Foxtail Barns. Binnen 800 meter de culturele wijk, vlakbij het Regent Theatre, 
                     Potteries Museum, Art Gallery, en de Potteries Shopping Centre. Meerdere kamers, van 
-                    tweepersoonskamers, kingsize kamers en familiekamers.
+                    tweepersoonskamers, kingsize kamers en familiekamers
                 """,
             },
             'costs': "££££",
@@ -243,13 +250,13 @@ CONTENT = {
                     25 minutes drive away from Foxtail Barns. Can do group bookings for more than 10 rooms.
                     They offer multiple types of rooms, from twins, to king, to suites. Located on Festival 
                     Retail park, near the Stoke Ski Centre and Waterworld. The hotel has a full-service spa, 
-                    pool, and resturants.
+                    pool, and resturants
                 """,
                 'nl': """
                     25 minuten rijden van Foxtail Barns. Bieden groepsreserveringen voor meer dan 10 kamers. 
-                    Meerdere soorten kamers bescikbaar, van tweelingen, tot koning, tot suites. Gelegen op 
+                    Meerdere soorten kamers beschikbaar, van tweelingen, tot koning, tot suites. Gelegen op 
                     Festival Retail Park, vlakbij het Stoke Ski Centre en Waterworld. Het hotel beschikt over 
-                    een volledig uitgeruste spa, een zwembad en restaurants.
+                    een volledig uitgeruste spa, een zwembad en restaurants
                 """,
             },
             'costs': "£££",
@@ -265,14 +272,14 @@ CONTENT = {
                     The house has 3 bedrooms and sleeps 6 plus cot(s). All bedrooms feature handmade,
                     wrought iron beds. Two of these rooms is kingsize and the third is a twin room with two singles. 
                     Self catering, and the weekly price is £595. Also have B&B 6 non-smoking bedrooms for£72. Well
-                    equipped kitchen. Two pubs within 10 minute walk, one canalside.
+                    equipped kitchen. Two pubs within 10 minute walk, one canalside
                 """,
                 'nl': """
                     Het huis heeft 3 slaapkamers en is geschikt voor 6 personen plus kinderbedje(s). Alle slaapkamers 
                     zijn voorzien van handgemaakte, smeedijzeren bedden. Twee van deze kamers zijn kingsize en de 
                     derde is een tweepersoonskamer met twee eenpersoonsbedden. Zelfcatering, en de wekelijkse prijs is 
                     £595. Heeftook 6 B&B rookvrije slaapkamers voor £72. Goed uitgeruste keuken. Twee pubs binnen 10 
-                    minuten lopen, één aan de gracht.
+                    minuten lopen, één aan de gracht
                 """,
             },
             'costs': "£",
@@ -288,13 +295,13 @@ CONTENT = {
                     15 minutes drive from Foxtail Barns. Accommodation features eight individual en-suite
                     bedrooms. Due to the historic building, all rooms are accessed via stairs. In the heart
                     of leek, the Grace II listed building is opposite the historic Market Place. As well as
-                    a B&B it's also a traditional tea room and sandwich bar.
+                    a B&B it's also a traditional tea room and sandwich bar
                 """,
                 'nl': """
                     15 minuten rijden van Foxtail Barns. De accommodatie beschikt over acht individuele slaapkamers 
                     met eigen badkamer. Omdat het historische gebouw is zijn alle kamers alleen bereikbaar via de trap. 
                     Het monumentale Grace II-gebouw ligt in het hart van Leek, tegenover de historische Grote Markt. 
-                    Naast een B&B is het ook een traditionele theesalon en een broodjesbar.
+                    Naast een B&B is het ook een traditionele theesalon en een broodjesbar
                 """,
             },
             'costs': "£",
@@ -355,14 +362,14 @@ CONTENT = {
                     guests with excellent parking and gardens. Hot Tub hire available.
                     Prices from £325 per night (2 night stay) or £1075 per week (for up to 6 guests). Each
                     property features a fully equipped kitchen, comfortable living room with log burner,
-                    dining area for 6-8 people and fully enclosed rear garden.
+                    dining area for 6-8 people and fully enclosed rear garden
                 """,
                 'nl': """
                     11 km van Foxtail Barns. Twee huisjes met elk 3 slaapkamers, geschikt voor maximaal 8 
                     volwassenen, elk met uitstekende parkeergelegenheid en tuinen. Hot Tub-verhuur beschikbaar. 
                     Prijzen vanaf £325 per nacht (2 nachten) of £1075 per week (voor maximaal 6 personen). 
                     Elke woning beschikt over een volledig uitgeruste keuken, een comfortabele woonkamer met 
-                    houtkachel, een eetruimte voor 6-8 personen en een volledig omheinde achtertuin.
+                    houtkachel, een eetruimte voor 6-8 personen en een volledig omheinde achtertuin
                 """,
             },
             'costs': "£££",
@@ -382,11 +389,12 @@ CONTENT = {
                     with log burners. Unsure of price, please enquire
                 """,
                 'nl': """
-                    17 minuten van Foxtail Barns. Slaapt zes. Drie slaapkamers: één kingsize bed, één 
-                    tweepersoonsbed en één met twee eenpersoonsbedden. De keuken is nieuw ingericht, 
-                    waardoor dit een heerlijke ruimte is om heerlijke maaltijden te bereiden. Het terrein 
-                    buiten Spring Cottage biedt gasten een plek om te ontspannen en in de warmere maanden 
-                    buiten te dineren. Twee woonkamers voorzien van houtkachels. Onzeker over de prijs
+                    17 minuten van Foxtail Barns. Biedt plaats voor zes personen in drie slaapkamers: één 
+                    kingsize bed, één tweepersoonsbed en één met twee eenpersoonsbedden. De keuken is nieuw 
+                    ingericht, waardoor dit een heerlijke ruimte is om heerlijke maaltijden te bereiden. 
+                    Het terrein buiten Spring Cottage biedt gasten een plek om te ontspannen en in de 
+                    warmere maanden buiten te dineren. Twee woonkamers voorzien van houtkachels. Onzeker 
+                    over de prijs
                 """,
             },
             'costs': "?",
@@ -409,7 +417,7 @@ CONTENT = {
             usually relable, whereas KLM is more luxurious and offers a snack half way through the flight. 
             The flight is usually around 50 minutes long, and remember that you need to be at the airport two 
             hours before your flight time! We do not recommend Ryanair, we have had negative experience of 
-            randomly cancelled flights.
+            randomly cancelled flights
         """, 
         'nl': """
             De beste luchthaven optie is Manchester, op 40-50 minuten rijden van Stoke-On-Trent. Als je vanuit 
@@ -418,7 +426,7 @@ CONTENT = {
             (<a href="https://www.klm.com/">/www.klm.com</a>). Easyjet is doorgaans de goedkoopste optie en 
             erg betrouwbaar, terwijl KLM luxer is en halverwege de vlucht een snack aanbiedt. De vlucht duurt 
             meestal ongeveer 50 minuten. Onthoud dat je twee uur vóór de vluchttijd op de luchthaven moet zijn! 
-            Wij raden Ryanair niet aan, wij hebben negatieve ervaringen met willekeurig geannuleerde vluchten.
+            Wij raden Ryanair niet aan, wij hebben negatieve ervaringen met willekeurig geannuleerde vluchten
         """
     },
     'PUBLIC_TRANSPORT': {'en': "Public Transport", 'nl': "Openbaar Vervoer"},
@@ -519,7 +527,7 @@ CONTENT = {
                     Forest is a sanctuary for endangered Barbary monkeys. The natural behaviours of the monkeys 
                     can be seen right in front of your very eyes, making it one of the most fascinating and special 
                     attractions in the UK. Guests walk along the 3/4 of a mile pathway, amongst the monkeys, and see 
-                    exactly how they live and behave in the wild.
+                    exactly how they live and behave in the wild
                 """,
                 'nl': """
                     Als je op zoek bent naar een leuk dagje uit, zoek dan niet verder. Trentham Monkey Forest is een 
@@ -600,7 +608,7 @@ CONTENT = {
                     main race slope.<br>
                     Their facility is specifically designed to imitate the mountains and help you train or just to have fun. 
                     With constant work going into improving their slope surface, they are proud to claim it as one of the best in 
-                    the country.            
+                    the country
                 """,
                 'nl': """
                     Stoke Ski Centre is een van de beste droge pistes in het Verenigd Koninkrijk en biedt een breed scala aan 
@@ -609,7 +617,7 @@ CONTENT = {
                     kicker en een quarterpipe, tot een 140 meter lange wedstrijdpiste.<br>
                     Hun faciliteit is speciaal ontworpen om de bergen na te bootsen en je te helpen trainen of gewoon om plezier
                     te hebben. Er wordt constant gewerkt aan het verbeteren van het oppervlak van de piste en ze zijn er trots op
-                    dat ze kunnen zeggen dat het een van de beste in het land is.
+                    dat ze kunnen zeggen dat het een van de beste in het land is
                 """,
             },
             'costs': "Adult £32 Children: £22",
@@ -655,7 +663,7 @@ CONTENT = {
                     surviving golden larch in Britain, brought from China in the 1850s. The Geological Gallery 
                     shows how Bateman's interests went beyond botany. Opened in 1862 the unique hallway is a 
                     Victorian attempt to reconcile geology and theology. There are narrow gravel paths and over 
-                    400 steps throughout the garden.         
+                    400 steps throughout the garden   
                 """,
                 'nl': """ 
                     Deze prachtige Victoriaanse tuin is aangelegd door James Bateman voor zijn verzameling planten
@@ -666,7 +674,7 @@ CONTENT = {
                     China werd meegenomen. De Geological Gallery laat zien hoe Bateman's interesses verder reikten 
                     dan alleen plantkunde. De unieke gang, geopend in 1862, is een Victoriaanse poging om geologie 
                     en theologie met elkaar te combineren. Er zijn smalle grindpaden en meer dan 400 treden door de 
-                    tuin.
+                    tuin
                 """,
             },
             'costs': "Adult: £12 Child: £6 ",
@@ -682,14 +690,14 @@ CONTENT = {
                     The Regent Theatre is a theatre in Stoke-on-Trent, England. Constructed in 1929 as a cinema, it is one of several  
                     theatres in the city centre and one of two operated by the Ambassador Theatre Group on behalf of Stoke-on-Trent 
                     City Council. The Regent Theatre is a number one touring venue. Since re-opening, following a 
-                    £23 million development of the city centre, it has played host to War Horse, Mamma Mia! and Jersey Boys.            
+                    £23 million development of the city centre, it has played host to War Horse, Mamma Mia! and Jersey Boys      
                 """,
                 'nl': """ 
                     Het Regent Theatre is een theater in Stoke-on-Trent, Engeland. Het werd in 1929 gebouwd als bioscoop en is een van 
                     de vele theaters in het stadscentrum en een van de twee die worden uitgebaat door de Ambassador Theatre Group namens 
                     de gemeenteraad van Stoke-on-Trent. Het Regent Theatre is een van de meest populaire theaters.
                     Sinds de heropening, na een ontwikkeling van het stadscentrum van £23 miljoen, heeft het onderdak geboden aan War Horse, 
-                    Mamma Mia! en Jersey Boys.
+                    Mamma Mia! en Jersey Boys
                 """,
             },
             'costs': "Price depends on the show",
@@ -704,7 +712,7 @@ CONTENT = {
     'FAQ_LONG': {'en': "Frequently Asked Questions", 'nl': "Veel Gestelde Vragen"},
     'rsvp_questions': [     
         {
-            'name': {'en': "How Do I RSVP?", 'nl': "Hoe kan ik RSVP'en?"},
+            'name': {'en': "How Do I RSVP?", 'nl': "Hoe laat ik weten dat ik kom?"},
             'description': {
                 'en': """
                     We invite you to RSVP at the bottom of this page or by mailing in the RSVP card sent with the invitation
@@ -722,6 +730,17 @@ CONTENT = {
                 """,
                 'nl': """
                     RSVP a.u.b. vóór 13 juni
+                """,
+            }
+        },
+                {
+            'name': {'en': "Can I come to the evening reception too?", 'nl': "Mag ik ook naar de avondreceptie komen?"},
+            'description': {
+                'en': """
+                    If you are invited to the ceremony then you are invited to both the ceremony and the evening reception
+                """,
+                'nl': """
+                    Als je bent uitgenodigd voor de ceremonie, dan bent je uitgenodigd voor zowel de ceremonie als de avondreceptie
                 """,
             }
         },
@@ -806,12 +825,12 @@ CONTENT = {
             'description': {
                 'en': """
                     Your presence at our wedding is the greatest gift of all. However, if you wish to honour us with a gift, 
-                    a cash gift for our honeymoon would be very welcome. Preferably in GBP(£) or Japanese Yen(¥).
+                    a cash gift for our honeymoon would be very welcome. Preferably in GBP(£) or Japanese Yen(¥)
                 """,
                 'nl': """
                     Jouw aanwezigheid op onze bruiloft is het grootste geschenk van allemaal. Maar, mocht je alsnog een 
                     cadeau willen geven, dan wordt een envelopje met contact geld voor onze huwelijksreis erg op preis gesteld. 
-                    Bij voorkeur in Engelse Ponden (£) of Japanse Yen(¥). 
+                    Bij voorkeur in Engelse Ponden (£) of Japanse Yen(¥)
                 """,
             }
         },
@@ -835,11 +854,11 @@ CONTENT = {
             'description': {
                 'en': """
                     Due to the size of our guest list, we cannot accommodate extra people at the wedding. 
-                    We only have spaces for the guests listed on your invitation.
+                    We only have spaces for the guests listed on your invitation
                 """,
                 'nl': """
                     Vanwege de omvang van onze gastenlijst kunnen wij geen extra personen op de bruiloft ontvangen. 
-                    Wij hebben alleen plekken voor de gasten die op de uitnodiging staan vermeld.
+                    Wij hebben alleen plekken voor de gasten die op de uitnodiging staan vermeld
                 """,
             }
         },
@@ -847,10 +866,10 @@ CONTENT = {
             'name': {'en': "Are children allowed?", 'nl': "Zijn kinderen welkom?"},
             'description': {
                 'en': """
-                    Yes, however, due to venue limitations, only people listed on the invitation can attend our wedding.
+                    Yes, however, due to venue limitations, only people listed on the invitation can attend our wedding
                 """,
                 'nl': """
-                    Ja, maar vanwege locatiebeperkingen kunnen alleen de mensen die op de uitnodiging staan vermeld onze bruiloft bijwonen. 
+                    Ja, maar vanwege locatiebeperkingen kunnen alleen de mensen die op de uitnodiging staan vermeld onze bruiloft bijwonen
                 """,
             }
         },
@@ -863,7 +882,7 @@ CONTENT = {
                 """,
                 'nl': """
                     Wat leuk! Omdat sommige gasten ver reizen hebben we besloten om een week te wachten voordat we op onze huwelijksreis gaan.
-                    Alhouwel we naar werk moeten zijn we beschikkbaar voor steun/advies, en om af te spreken (zolang we beschikbaar zijn)
+                    Hoewel we moeten werken zijn we beschikkbaar voor steun/advies, en om af te spreken (zolang we beschikbaar zijn)
                 """,
             }
         },
