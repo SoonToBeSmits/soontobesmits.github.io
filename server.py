@@ -14,7 +14,7 @@ URL = "/"
 
 CONTENT = {
     'NAV_OUR_STORY': {'en': "Our Story", 'nl': "Ons Verhaal"},
-    'NAV_ACCOMODATION': {'en': "Accomodation", 'nl': "Accomodatie"},
+    'NAV_ACCOMMODATION': {'en': "Accommodation", 'nl': "Accomodatie"},
     'NAV_TRANSPORT': {'en': "Transport", 'nl': "Vervoer"},
     'NAV_TODO': {'en': "To-Do", 'nl': "Te-Doen"},
     'NAV_FAQ': {'en': "FAQ", 'nl': "FAQ"},
@@ -88,8 +88,8 @@ CONTENT = {
     'HE_PROPOSED': {'en': "He Proposed", 'nl': "Het Aanzoek"},
     'HE_PROPOSED_DESC': {
         'en': """
-            Ruben and Olivia went to Southport with her family to celebrate her parents' anniversay. During a 
-            walk on the beach during sunset one evening, they discscused their relationship, with all of its 
+            Ruben and Olivia went to Southport with her family to celebrate her parents' anniversary. During a 
+            walk on the beach during sunset one evening, they discussed their relationship, with all of its 
             many highs. Ruben got down on one knee and asked Olivia to marry him. Olivia, overwhelmed with joy, 
             said yes, and they've been happily planning the wedding ever since!
         """, 
@@ -106,7 +106,7 @@ CONTENT = {
     'OUR_WEDDING_DAY_DESC': {
         'en': """
             Olivia and Ruben have booked their wedding for Friday the 13th of September, 2024 at the Foxtail 
-            Barns, Consall, England. This is only the start of our journey, and we can't find to find out what 
+            Barns, Consall, England. This is only the start of our journey, and we can't wait to find out what 
             wonders life has in store for us. It would be wonderful to share this beautiful moment with you; 
             we hope to see you there! 
         """, 
@@ -119,18 +119,19 @@ CONTENT = {
     },
     'OUR_WEDDING_DAY_DATE': {'en': "13 Sep. 2024", 'nl': "13 sep. 2024"},
 
-    # Accomodation section
+    # Accommodation section
     'WHERE_TO_STAY': {'en': "WHERE TO STAY", 'nl': "WAAR TE BLIJVEN"},
-    'ACCOMODATION': {'en': "Accomodation", 'nl': "Accomodatie"},
-    'accomodations': [     
+    'ACCOMMODATION': {'en': "Accommodation", 'nl': "Accomodatie"},
+    'accomModations': [     
         {
             'name': "Woodland Pods",
             'img_url': f"{URL}img/Foxtail-Barns-pods.jpg",
             'description': {
                 'en': """
-                    These nature-inspired Pods are on premise, and are nestled in the woodland of the
-                    fabulous estate. They come in different sizes and configurations with varying check in
-                    times, and the price starts at £110 for a double room, and £150 for a family room.<br>
+                    These nature inspired Pods are located at our wedding venue, and are nestled in the 
+                    woodland of the fabulous estate. They come in different sizes and configurations with 
+                    varying check in times, and the price starts at £110 for a double room, and £150 for a 
+                    family room.<br>
 
                     <b>Please keep in mind that these pods are very limited, can only be booked through us,
                     and are for one night only!</b> If you're interested in hiring one, please contact Ruben
@@ -195,7 +196,7 @@ CONTENT = {
             'costs': "££",
             'phone': "+44 (0)333 321 9252",
             'url': "https://www.premierinn.com/gb/en/hotels/england/staffordshire/leek/leek-town-centre.html",
-            'display_url': "premierinn.com"
+            'display_url': "www.premierinn.com"
         },   
         {
             'name': "Premier Inn - Hanley",
@@ -205,7 +206,7 @@ CONTENT = {
                     9 miles from Foxtail Barns, with free parking. Just a ten-minute walk to the shops and cafés
                     of Hanley town centre plus the cute pottery outlets. There are two types of rooms, standard and
                     plus. Theres also two types of room rates, flexible (where you can pay cancel up to 1PM
-                    on the same day and you can pay on arrive), and advanced (where you pay now and get free
+                    on the same day and you can pay on arrival), and advanced (where you pay now and get free
                     cancellation up to 28 days before). Either king or twin rooms
                 """,
                 'nl': """
@@ -217,10 +218,10 @@ CONTENT = {
                     bedden
                 """,
             },
-            'costs': "",
-            'phone': "",
-            'url': "",
-            'display_url': ""
+            'costs': "££",
+            'phone': "+44 (0) 333 321 9337",
+            'url': "https://www.premierinn.com/gb/en/hotels/england/staffordshire/stoke-on-trent/stoke-on-trent-hanley.html",
+            'display_url': "www.premierinn.com"
         }, 
         {
             'name': "Hilton Garden Inn - Hanley",
@@ -247,10 +248,10 @@ CONTENT = {
             'img_url': f"{URL}img/DoubleTree by Hilton - Etruria.jpg",
             'description': {
                 'en': """
-                    25 minutes drive away from Foxtail Barns. Can do group bookings for more than 10 rooms.
+                    25 minutes' drive away from Foxtail Barns. Can do group bookings for more than 10 rooms.
                     They offer multiple types of rooms, from twins, to king, to suites. Located on Festival 
                     Retail park, near the Stoke Ski Centre and Waterworld. The hotel has a full-service spa, 
-                    pool, and resturants
+                    pool, and restaurants
                 """,
                 'nl': """
                     25 minuten rijden van Foxtail Barns. Bieden groepsreserveringen voor meer dan 10 kamers. 
@@ -270,9 +271,9 @@ CONTENT = {
             'description': {
                 'en': """
                     The house has 3 bedrooms and sleeps 6 plus cot(s). All bedrooms feature handmade,
-                    wrought iron beds. Two of these rooms is kingsize and the third is a twin room with two singles. 
-                    Self catering, and the weekly price is £595. Also have B&B 6 non-smoking bedrooms for£72. Well
-                    equipped kitchen. Two pubs within 10 minute walk, one canalside
+                    wrought iron beds. Two of these rooms is king size and the third is a twin room with two singles. 
+                    Self catering, and the weekly price is £595. Also have B&B 6 non-smoking bedrooms for £72. Well
+                    equipped kitchen. Two pubs within 10 minute walk, one by the canal
                 """,
                 'nl': """
                     Het huis heeft 3 slaapkamers en is geschikt voor 6 personen plus kinderbedje(s). Alle slaapkamers 
@@ -292,7 +293,7 @@ CONTENT = {
             'img_url': f"{URL}img/White Hart Tea Room.jpg",
             'description': {
                 'en': """
-                    15 minutes drive from Foxtail Barns. Accommodation features eight individual en-suite
+                    15 minutes' drive from Foxtail Barns. Accommodation features eight individual en-suite
                     bedrooms. Due to the historic building, all rooms are accessed via stairs. In the heart
                     of leek, the Grace II listed building is opposite the historic Market Place. As well as
                     a B&B it's also a traditional tea room and sandwich bar
@@ -315,7 +316,7 @@ CONTENT = {
             'description': {
                 'en': """
                     7 miles from Foxtail Barns, 1 double Bedroom property. Built in the 1700s, and situated
-                    in the picturesque village of Endon. Two village pubs are only a few minutes walk. Fully 
+                    in the picturesque village of Endon. Two village pubs are only a few minutes' walk. Fully 
                     fitted kitchen included. Option of a guest bed and travel cot if required. Unsure of 
                     price, please enquire
                 """,
@@ -336,7 +337,7 @@ CONTENT = {
             'img_url': f"{URL}img/Allmore Cottage - Gratton Village.jpg",
             'description': {
                 'en': """
-                    8 miles from Foxtail Barns. Allmore Cottage is a 1 kingsize bedroom property for 2
+                    8 miles from Foxtail Barns. Allmore Cottage is a 1 king size bedroom property for 2
                     people. Prices range from £460 - £600 per week. Was originally a neglected farm building
                     turned into a cottage. Fully fitted kitchen and a conservatory at the rear of the cottage,
                     ideal for relaxing and enjoying the views of the surrounding countryside
@@ -383,9 +384,9 @@ CONTENT = {
             'description': {
                 'en': """
                     17 minutes from Foxtail Barns. Sleeps six. Three bedrooms, one king size, one double,
-                    and one with twin beds. The kitchen has been newly fitted with making this a lovely
+                    and one with twin beds. The kitchen has been recently renovated making this a lovely
                     space to prepare delightful meals. The grounds outside Spring Cottage offer guests a
-                    place to relax and do some alfresco dining in the warmer months. Two livingrooms fitted
+                    place to relax and do some alfresco dining in the warmer months. Two living rooms fitted
                     with log burners. Unsure of price, please enquire
                 """,
                 'nl': """
@@ -411,13 +412,13 @@ CONTENT = {
     'FLIGHTS_DESC': {
         'en': """
             The best airport to land in is Manchester which is a 40-50 minute drive
-            to Stoke-On-Trent. If you're flying from the Netherlands the best airlines we can recommened are
+            to Stoke-On-Trent. If you're flying from the Netherlands the best airlines we can recommend are
             Easyjet (<a href="https://www.easyjet.com/">www.easyjet.com</a>) and KLM 
             (<a href="https://www.klm.com/">www.klm.com</a>). Easyjet is usually the cheapest option and 
-            usually relable, whereas KLM is more luxurious and offers a snack half way through the flight. 
+            usually reliable, whereas KLM is more luxurious and offers a snack halfway through the flight. 
             The flight is usually around 50 minutes long, and remember that you need to be at the airport two 
-            hours before your flight time! We do not recommend Ryanair, we have had negative experience of 
-            randomly cancelled flights
+            hours before your flight time! We do not recommend Ryanair;  we have had negative experiences of 
+            them randomly cancelling flights 
         """, 
         'nl': """
             De beste luchthaven optie is Manchester, op 40-50 minuten rijden van Stoke-On-Trent. Als je vanuit 
@@ -434,11 +435,11 @@ CONTENT = {
         'en': """
             There are two modes of public transport in the UK. These are train and
             bus. If you're getting a train from the airport to Stoke-On-Trent, or if you want to explore the 
-            major cities of the UK, using the train will be vital. Unlike in The Netherlands and other european 
+            major cities of the UK, using the train will be vital. Unlike in The Netherlands and other European 
             countries, you need to buy train tickets per journey. You can do this at the train station or more 
-            relably by using the Trainline website/app (<a href="https://www.thetrainline.com/">www.thetrainline.com</a>). 
-            If you're planning on travelling we recommened downloading the app. All you need to do it put your current 
-            location and where you're travelling to and it will tell you the different times and prices (we do            
+            reliable by using the Trainline website/app (<a href="https://www.thetrainline.com/">www.thetrainline.com</a>). 
+            If you're planning on travelling we recommend downloading the app. All you need to do it put your current 
+            location and where you're travelling to, and it will tell you the different times and prices (we do            
             advise you to avoid peak times). If you're looking at travelling by bus around Stoke-On-Trent, the 
             most reliable bus service is the First bus (<a href="https://www.firstbus.co.uk/">www.firstbus.co.uk</a>), 
             on their website you can plan your journey or see when the next bus will be!
@@ -467,8 +468,8 @@ CONTENT = {
             Leek can use Leek Link Taxis' (<a href="tel:+441538399999">+44 (0)1538 399999</a>),
             Lucky Seven (<a href="tel:+441782333333">+44 (0)1782 333333</a>), City Cabs (<a
             href="tel:+441782888888">+44 (0)1782 888888</a>), Magnum Private Hire (<a
-            href="tel:+441782819819">+44 (0)1782 819819</a>). Alternatively you can use an app
-            called "Take me", which is an app that allows you to book a vechicle in seconds, you can
+            href="tel:+441782819819">+44 (0)1782 819819</a>). Alternatively, you can use an app
+            called "Take me", which is an app that allows you to book a vehicle in seconds, you can
             view your driver and track his progress or you can use Uber, whichever is easiest for
             you!
         """, 
@@ -549,7 +550,7 @@ CONTENT = {
                     The Trentham Estate is home to the award-winning Trentham Gardens featuring The Italian Garden 
                     by Tom Stuart-Smith, and the Floral Labyrinth and Rivers of Grass by Piet Oudolf and vast 
                     wildflower and woodland meadow plantings by Nigel Dunnett. A fascinating wire fairy sculpture 
-                    trail, fab childrens adventure playground with the UK's first barefoot walk, a family-friendly maze, 
+                    trail, fab children's adventure playground with the UK's first barefoot walk, a family-friendly maze, 
                     mile-long Capability Brown lake with seasonal boat and train trips. Trentham Monkey Forest, Trentham 
                     Treetop Adventure and Trentham Shopping Village with 50 shops and 14 cafes and restaurants can also 
                     be found at The Trentham Estate. You'll find something for everyone here
@@ -630,8 +631,8 @@ CONTENT = {
             'img_url': f"{URL}img/World of Wedgwood.jpg",
             'description': {
                 'en': """
-                    The home of the pottery industry in England, Stoke-on-Trent is also known as The Potteries. There's not better
-                    place to experince this than at the World of Wedgwood, nestled in acres of stunning Staffordshire countryside.
+                    The home of the pottery industry in England, Stoke-on-Trent is also known as The Potteries. There's no better
+                    place to experience this than at the World of Wedgwood, nestled in acres of stunning Staffordshire countryside.
                     Here, you can visit the Wedgwood Factory, the only place in the world where jasper is still made today.  
                     You can unwind at the potter's wheel or explore the galleries of the V&A Wedgwood Collection, but make sure you 
                     save time for the signature Wedgwood Afternoon Tea. So come for the plates and stay for the cake, take walks 
@@ -715,7 +716,7 @@ CONTENT = {
             'name': {'en': "How Do I RSVP?", 'nl': "Hoe laat ik weten dat ik kom?"},
             'description': {
                 'en': """
-                    We invite you to RSVP at the bottom of this page or by mailing in the RSVP card sent with the invitation
+                    We invite you to RSVP at the bottom of this page or by posting us the filled out RSVP card sent with the invitation
                 """,
                 'nl': """
                     Gelieve de RSVP op de bodem van deze webpagina te gebruiken, of door de RSVP-kaart in te sturen die bij de uitnodiging is toegegevoegd

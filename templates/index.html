@@ -27,7 +27,7 @@
                         <a class="nav-link" href="#OurStory">{{ "NAV_OUR_STORY" | translate }}</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#Accomodation">{{ "NAV_ACCOMODATION" | translate }}</a>
+                        <a class="nav-link" href="#Accommodation">{{ "NAV_ACCOMMODATION" | translate }}</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#Transport">{{ "NAV_TRANSPORT" | translate }}</a>
@@ -160,30 +160,30 @@
             </div>
         </div>
 
-        <div class="text-center pt-5 category-divider" id="Accomodation">
+        <div class="text-center pt-5 category-divider" id="Accommodation">
             <span class="small">{{ "WHERE_TO_STAY" | translate }}</span>
-            <h1>{{ "ACCOMODATION" | translate }}</h1>
+            <h1>{{ "ACCOMMODATION" | translate }}</h1>
         </div>
 
         <div id="accommodationCarousel" class="carousel multiItemCarousel">
             <div class="carousel-inner">
-                {% for accomodation in content['accomodations'] %}
+                {% for accommodation in content['accommodations'] %}
                 <div class="carousel-item {% if loop.index == 1%}active{% endif %}">
                     <div class="card">
                         <div class="img-wrapper">
                             <img class="img-fluid w-100" style="height: 280px; object-fit: cover;"
-                                alt="{{ accomodation['name'] }}" src="{{ accomodation['img_url'] }}">
+                                alt="{{ accommodation['name'] }}" src="{{ accommodation['img_url'] }}">
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">{{ accomodation['name'] }}</h5>
+                            <h5 class="card-title">{{ accommodation['name'] }}</h5>
                             <p class="card-text">
-                                {{ accomodation['description'] | translate_val }}
+                                {{ accommodation['description'] | translate_val }}
                             </p>
-                            <span><i class="fa fa-money" aria-hidden="true"></i> {{ accomodation['costs'] }}</span><br>
+                            <span><i class="fa fa-money" aria-hidden="true"></i> {{ accommodation['costs'] }}</span><br>
                             <span><i class="fa fa-phone" aria-hidden="true"></i> <a
-                                    href="tel:{{ accomodation['phone'] }}">{{ accomodation['phone'] }}</a></span><br>
+                                    href="tel:{{ accommodation['phone'] }}">{{ accommodation['phone'] }}</a></span><br>
                             <span><i class="fa fa-globe" aria-hidden="true"></i>
-                                <a target="_blank" href="{{ accomodation['url'] }}">{{ accomodation['display_url']
+                                <a target="_blank" href="{{ accommodation['url'] }}">{{ accommodation['display_url']
                                     }}</a>
                             </span><br>
                         </div>
