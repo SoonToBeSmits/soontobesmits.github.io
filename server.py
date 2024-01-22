@@ -122,7 +122,7 @@ CONTENT = {
     # Accommodation section
     'WHERE_TO_STAY': {'en': "WHERE TO STAY", 'nl': "WAAR TE BLIJVEN"},
     'ACCOMMODATION': {'en': "Accommodation", 'nl': "Accomodatie"},
-    'accomModations': [     
+    'accommodations': [     
         {
             'name': "Woodland Pods",
             'img_url': f"{URL}img/Foxtail-Barns-pods.jpg",
