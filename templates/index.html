@@ -27,6 +27,9 @@
                         <a class="nav-link" href="#OurStory">{{ "NAV_OUR_STORY" | translate }}</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#Timeline">{{ "NAV_TIMELINE" | translate }}</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#Accommodation">{{ "NAV_ACCOMMODATION" | translate }}</a>
                     </li>
                     <li class="nav-item">
@@ -64,28 +67,29 @@
         <img class="img-fluid w-100" src="{{url}}img/us_2.jpg">
     </div>
 
-    <div class="container">
-        <div class="mt-5 text-center d-flex justify-content-center">
-            <!-- Countdown to wedding ceremony -->
-            <div class="row my-auto w-100 justify-content-center " id="countdown">
-                <div class="col-3">
-                    <h1 id="countdownDays">00</h1>
-                    <h5>{{ "DAYS" | translate }}</h5>
-                </div>
-                <div class="col-3">
-                    <h1 id="countdownHours">00</h1>
-                    <h5>{{ "HOURS" | translate }}</h5>
-                </div>
-                <div class="col-3">
-                    <h1 id="countdownMinutes">00</h1>
-                    <h5>{{ "MINUTES" | translate }}</h5>
-                </div>
-                <div class="col-3">
-                    <h1 id="countdownSeconds">00</h1>
-                    <h5>{{ "SECONDS" | translate }}</h5>
-                </div>
+    <div class="mt-5 text-center mw-100 row justify-content-center">
+        <!-- Countdown to wedding ceremony -->
+        <div class="col-md-7 col-sm-12 row my-auto justify-content-center " id="countdown">
+            <div class="col-3">
+                <h1 id="countdownDays">00</h1>
+                <h5>{{ "DAYS" | translate }}</h5>
+            </div>
+            <div class="col-3">
+                <h1 id="countdownHours">00</h1>
+                <h5>{{ "HOURS" | translate }}</h5>
+            </div>
+            <div class="col-3">
+                <h1 id="countdownMinutes">00</h1>
+                <h5>{{ "MINUTES" | translate }}</h5>
+            </div>
+            <div class="col-3">
+                <h1 id="countdownSeconds">00</h1>
+                <h5>{{ "SECONDS" | translate }}</h5>
             </div>
         </div>
+    </div>
+
+    <div class="container">
 
         <div class="text-center pt-5 category-divider" id="OurStory">
             <!-- Vertical timeline -->
@@ -159,6 +163,28 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="text-center pt-5 category-divider" id="Timeline">
+        <span class="small">{{ "WHEN_AND_WHAT" | translate }}</span>
+        <h1>{{ "TIMELINE" | translate }}</h1>
+    </div>
+    <div class="container-fluid horizontal-timeline overflow-scroll ">
+        <ul class="row flex-row flex-nowrap list-inline items">
+            {% for timeline_item in content['timeline_items'] %}
+            <li class="list-inline-item items-list col-3">
+                <div class="px-4">
+                    <h5 class="pt-2">{{ timeline_item['time'] }}</h5>
+                    <p class="text-muted">
+                        {{ timeline_item['description'] | translate_val }}
+                    </p>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <div class="container">
 
         <div class="text-center pt-5 category-divider" id="Accommodation">
             <span class="small">{{ "WHERE_TO_STAY" | translate }}</span>
@@ -179,9 +205,11 @@
                             <p class="card-text">
                                 {{ accommodation['description'] | translate_val }}
                             </p>
-                            <span><i class="fa fa-money" aria-hidden="true"></i> {{ accommodation['costs'] }}</span><br>
+                            <span><i class="fa fa-money" aria-hidden="true"></i> {{ accommodation['costs']
+                                }}</span><br>
                             <span><i class="fa fa-phone" aria-hidden="true"></i> <a
-                                    href="tel:{{ accommodation['phone'] }}">{{ accommodation['phone'] }}</a></span><br>
+                                    href="tel:{{ accommodation['phone'] }}">{{ accommodation['phone']
+                                    }}</a></span><br>
                             <span><i class="fa fa-globe" aria-hidden="true"></i>
                                 <a target="_blank" href="{{ accommodation['url'] }}">{{ accommodation['display_url']
                                     }}</a>
@@ -379,7 +407,8 @@
                                             {{ "FOUR" | translate_select("value=\"4\"") }}
                                             {{ "FIVE" | translate_select("value=\"5\"") }}
                                         </select>
-                                        <label for="floatingSelectInvite">{{ "HOW_MANY_INVITE" | translate }}</label>
+                                        <label for="floatingSelectInvite">{{ "HOW_MANY_INVITE" | translate
+                                            }}</label>
                                     </div>
                                 </div>
 
@@ -395,14 +424,14 @@
                                             {{ "FOUR" | translate_select("value=\"4\"") }}
                                             {{ "FIVE" | translate_select("value=\"5\"") }}
                                         </select>
-                                        <label for="floatingSelectAttend">{{ "HOW_MANY_ATTEND" | translate }}</label>
+                                        <label for="floatingSelectAttend">{{ "HOW_MANY_ATTEND" | translate
+                                            }}</label>
                                     </div>
                                 </div>
 
                                 <div class="col-md-6 col-sm-12 mt-3 hidden">
                                     <div class="form-floating">
-                                        <select class="form-select"
-                                            id="floatingSelectInviteHidden">
+                                        <select class="form-select" id="floatingSelectInviteHidden">
                                             {{ "PLEASE_SELECT" | translate_select("disabled selected value=\"\"") }}
                                             {{ "ONE" | translate_select("value=\"1\"") }}
                                             {{ "TWO" | translate_select("value=\"2\"") }}
@@ -410,14 +439,14 @@
                                             {{ "FOUR" | translate_select("value=\"4\"") }}
                                             {{ "FIVE" | translate_select("value=\"5\"") }}
                                         </select>
-                                        <label for="floatingSelectInvite">{{ "HOW_MANY_INVITE" | translate }}</label>
+                                        <label for="floatingSelectInvite">{{ "HOW_MANY_INVITE" | translate
+                                            }}</label>
                                     </div>
                                 </div>
 
                                 <div class="col-md-6 col-sm-12 mt-3 hidden">
                                     <div class="form-floating">
-                                        <select class="form-select"
-                                            id="floatingSelectAttendHidden">
+                                        <select class="form-select" id="floatingSelectAttendHidden">
                                             {{ "PLEASE_SELECT" | translate_select("disabled selected value=\"\"") }}
                                             {{ "NONE" | translate_select("value=\"0\"") }}
                                             {{ "ONE" | translate_select("value=\"1\"") }}
@@ -426,7 +455,8 @@
                                             {{ "FOUR" | translate_select("value=\"4\"") }}
                                             {{ "FIVE" | translate_select("value=\"5\"") }}
                                         </select>
-                                        <label for="floatingSelectAttend">{{ "HOW_MANY_ATTEND" | translate }}</label>
+                                        <label for="floatingSelectAttend">{{ "HOW_MANY_ATTEND" | translate
+                                            }}</label>
                                     </div>
                                 </div>
                             </div>
@@ -440,10 +470,12 @@
                             <div class="form-floating mt-3">
                                 <textarea name="attendeeDietary" class="form-control" id="floatingTextareaDietary"
                                     style="height: 100px"></textarea>
-                                <label for="floatingTextareaDietary">{{ "DIETARY_REQUIREMENTS" | translate }}</label>
+                                <label for="floatingTextareaDietary">{{ "DIETARY_REQUIREMENTS" | translate
+                                    }}</label>
                             </div>
 
-                            <button id="RSVPButton" class="btn btn-primary mt-3 w-100" type="submit">{{ "SUBMIT_RSVP" |
+                            <button id="RSVPButton" class="btn btn-primary mt-3 w-100" type="submit">{{
+                                "SUBMIT_RSVP" |
                                 translate }}</button>
                         </div>
                     </div>
@@ -545,7 +577,7 @@
         return -c / 2 * (t * (t - 2) - 1) + b;
     };
 
-    function toggleLanguage() {      
+    function toggleLanguage() {
         document.querySelectorAll('[lang="nl"]').forEach(function (element) {
             element.classList.toggle('hidden');
         });
@@ -560,7 +592,7 @@
     function clearSelect() {
         ["floatingSelectInvite", "floatingSelectAttend"].forEach(function (elementName) {
             var dropdown = document.getElementById(elementName);
-            var dropdownHidden = document.getElementById(elementName+"Hidden")
+            var dropdownHidden = document.getElementById(elementName + "Hidden")
             dropdown.innerHTML = dropdownHidden.innerHTML;
             var visibleOptions = Array.from(dropdown.options).filter(option => !option.classList.contains('hidden'));
             dropdown.options.length = 0;
@@ -609,7 +641,7 @@
         alertPlaceholder.append(wrapper);
     }
 
-    if (window.location.search.includes("sentRSVP")){
+    if (window.location.search.includes("sentRSVP")) {
         showAlert('&#x1F1EC;&#x1F1E7;: Thank you for submitting your RSVP!<br>&#x1F1F3;&#x1F1F1;: Bedankt voor het invullen van de RSVP!');
         window.history.pushState("", "", "/");
     }

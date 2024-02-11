@@ -14,6 +14,7 @@ URL = "/"
 
 CONTENT = {
     'NAV_OUR_STORY': {'en': "Our Story", 'nl': "Ons Verhaal"},
+    'NAV_TIMELINE': {'en': "Timeline", 'nl': "Tijdlijn"},
     'NAV_ACCOMMODATION': {'en': "Accommodation", 'nl': "Accomodatie"},
     'NAV_TRANSPORT': {'en': "Transport", 'nl': "Vervoer"},
     'NAV_TODO': {'en': "To-Do", 'nl': "Te-Doen"},
@@ -119,8 +120,70 @@ CONTENT = {
     },
     'OUR_WEDDING_DAY_DATE': {'en': "13 Sep. 2024", 'nl': "13 sep. 2024"},
 
+    # Timeline section
+    'WHEN_AND_WHAT': {'en': "WHEN AND WHAT ", 'nl': "WANNEER EN WAT"},
+    'TIMELINE': {'en': "Timeline", 'nl': "Tijdlijn"},
+    'timeline_items': [
+        {
+            'time': "13:00",
+            'description': {
+                'en': "Guests arrive at the venue and are seated",
+                'nl': "Gasten arriveren op de locatie en nemen plaats"
+            }
+        },
+        {
+            'time': "14:00",
+            'description': {
+                'en': "The wedding ceremony begins and the magic happens",
+                'nl': "De huwelijksceremonie begint en de magie kan beginnen"
+            }
+        },
+        {
+            'time': "14:30",
+            'description': {
+                'en': "Drinks reception starts and the photographer takes aim",
+                'nl': "De borrel begint en de fotograaf gaat op pad"
+            }
+        },
+        {
+            'time': "16:15",
+            'description': {
+                'en': "Have a seat, and enjoy the wedding breakfast",
+                'nl': "Neem plaats en geniet van het bruiloftsontbijt"
+            }
+        },
+        {
+            'time': "17:45",
+            'description': {
+                'en': "Start of the speeches and tears will flow",
+                'nl': "Begin van de toespraken en het vloeien van tranen"
+            }
+        },
+        {
+            'time': "19:00",
+            'description': {
+                'en': "Evening guests arrive and the party gets started",
+                'nl': "De avondgasten arriveren en het feest kan beginnen"
+            }
+        },
+        {
+            'time': "20:00",
+            'description': {
+                'en': "First dance followed by evening refreshments",
+                'nl': "Eerste dans gevolgd door verfrissingen"
+            }
+        },
+        {
+            'time': "00:00",
+            'description': {
+                'en': "Bar closes, music stops, and guests depart",
+                'nl': "De bar sluit, de muziek stopt en de gasten vertrekken"
+            }
+        }
+    ],
+
     # Accommodation section
-    'WHERE_TO_STAY': {'en': "WHERE TO STAY", 'nl': "WAAR TE BLIJVEN"},
+    'WHERE_TO_STAY': {'en': "WHERE TO STAY", 'nl': "WAAR TE VERBLIJVEN"},
     'ACCOMMODATION': {'en': "Accommodation", 'nl': "Accomodatie"},
     'accommodations': [     
         {
@@ -165,10 +228,10 @@ CONTENT = {
                 """,
                 'nl': """
                     The Tawny is de accommodatie naast de trouwlocatie. Het heeft een selectie van unieke 
-                    accommodatiemogelijkheden in een prachtige omgeving. Alle kamers beschikken een buitenspa op
-                    eigen terras. Ook al is dit naast de locatie, ze zijn erg duur. Dit moet worden gezien als een 
-                    plek waar je verblijft voor een speciale traktatie of een speciale gelegenheid, in plaats van 
-                    als een gemiddeld hotel. Prijzen variëren van £250 tot £605 per nacht
+                    accommodatiemogelijkheden in een prachtige omgeving. Alle kamers beschikken over een buitenspa 
+                    op eigen terras. Ook al is dit naast de locatie, ze zijn erg duur. Dit moet worden gezien als 
+                    een plek waar je verblijft voor een speciale traktatie of een speciale gelegenheid, in plaats 
+                    van als een gemiddeld hotel. Prijzen variëren van £250 tot £605 per nacht
                 """,
             },
             'costs': "£££££",
@@ -205,7 +268,7 @@ CONTENT = {
                 'en': """
                     9 miles from Foxtail Barns, with free parking. Just a ten-minute walk to the shops and cafés
                     of Hanley town centre plus the cute pottery outlets. There are two types of rooms, standard and
-                    plus. Theres also two types of room rates, flexible (where you can pay cancel up to 1PM
+                    plus. Theres also two types of room rates, flexible (where you can pay cancel up to 13:00
                     on the same day and you can pay on arrival), and advanced (where you pay now and get free
                     cancellation up to 28 days before). Either king or twin rooms
                 """,
@@ -279,7 +342,7 @@ CONTENT = {
                     Het huis heeft 3 slaapkamers en is geschikt voor 6 personen plus kinderbedje(s). Alle slaapkamers 
                     zijn voorzien van handgemaakte, smeedijzeren bedden. Twee van deze kamers zijn kingsize en de 
                     derde is een tweepersoonskamer met twee eenpersoonsbedden. Zelfcatering, en de wekelijkse prijs is 
-                    £595. Heeftook 6 B&B rookvrije slaapkamers voor £72. Goed uitgeruste keuken. Twee pubs binnen 10 
+                    £595. Heeft ook 6 B&B rookvrije slaapkamers voor £72. Goed uitgeruste keuken. Twee pubs binnen 10 
                     minuten lopen, één aan de gracht
                 """,
             },
@@ -533,7 +596,7 @@ CONTENT = {
                 'nl': """
                     Als je op zoek bent naar een leuk dagje uit, zoek dan niet verder. Trentham Monkey Forest is een 
                     toevluchtsoord voor bedreigde berberapen. Het natuurlijke gedrag van de apen is recht voor je ogen 
-                    te zien, waardoor dit een van de meesst facinerede en bijzondere attracties in de UK is. Gasten lopen 
+                    te zien, waardoor dit een van de meest fascinerende en bijzondere attracties in de UK is. Gasten lopen 
                     over een pad van 1.2 km tussen de apen door en zien precies hoe ze in het wild leven en zich gedragen
                 """,
             },
@@ -719,7 +782,7 @@ CONTENT = {
                     We invite you to RSVP at the bottom of this page or by posting us the filled out RSVP card sent with the invitation
                 """,
                 'nl': """
-                    Gelieve de RSVP op de bodem van deze webpagina te gebruiken, of door de RSVP-kaart in te sturen die bij de uitnodiging is toegegevoegd
+                    Gelieve de RSVP op de bodem van deze webpagina te gebruiken, of door de RSVP-kaart in te sturen die bij de uitnodiging is toegevoegd
                 """,
             }
         },
@@ -741,7 +804,7 @@ CONTENT = {
                     If you are invited to the ceremony then you are invited to both the ceremony and the evening reception
                 """,
                 'nl': """
-                    Als je bent uitgenodigd voor de ceremonie, dan bent je uitgenodigd voor zowel de ceremonie als de avondreceptie
+                    Als je bent uitgenodigd voor de ceremonie, dan ben je uitgenodigd voor zowel de ceremonie als de avondreceptie
                 """,
             }
         },
@@ -777,13 +840,13 @@ CONTENT = {
             }
         },
         {
-            'name': {'en': "What time should I arrive?", 'nl': "Hoe laat wordt ik verwacht?"},
+            'name': {'en': "What time should I arrive?", 'nl': "Hoe laat word ik verwacht?"},
             'description': {
                 'en': """
-                    Help us get the party started as scheduled! We recommend that you arrive at 1 PM, which is an 
+                    Help us get the party started as scheduled! We recommend that you arrive at 13:00, which is an 
                     hour before the start of the ceremony, to make sure everyone is seated on time""",
                 'nl': """
-                    Help ons het feest op tijd in gang te krijgen! We raden je aan om om 13.00 uur aanwezig te zijn, 
+                    Help ons het feest op tijd in gang te krijgen! We raden je aan om 13.00 uur aanwezig te zijn, 
                     wat een uur voor aanvang van de ceremonie is, om er zeker van te zijn dat iedereen op tijd zit
                 """,
             }
@@ -830,7 +893,7 @@ CONTENT = {
                 """,
                 'nl': """
                     Jouw aanwezigheid op onze bruiloft is het grootste geschenk van allemaal. Maar, mocht je alsnog een 
-                    cadeau willen geven, dan wordt een envelopje met contact geld voor onze huwelijksreis erg op preis gesteld. 
+                    cadeau willen geven, dan wordt een envelopje met contant geld voor onze huwelijksreis erg op prijs gesteld. 
                     Bij voorkeur in Engelse Ponden (£) of Japanse Yen(¥)
                 """,
             }
@@ -883,7 +946,7 @@ CONTENT = {
                 """,
                 'nl': """
                     Wat leuk! Omdat sommige gasten ver reizen hebben we besloten om een week te wachten voordat we op onze huwelijksreis gaan.
-                    Hoewel we moeten werken zijn we beschikkbaar voor steun/advies, en om af te spreken (zolang we beschikbaar zijn)
+                    Hoewel we moeten werken zijn we beschikbaar voor steun/advies, en om af te spreken (zolang we beschikbaar zijn)
                 """,
             }
         },

@@ -129,7 +129,7 @@ a {
 .main-timeline-4 {
     padding: 16px;
     border-radius: 22px;
-    background: linear-gradient(rgba(255, 255, 255, 0.93), rgba(255, 255, 255, 0.93)),
+    background: linear-gradient(rgba(255, 255, 255, 0.90), rgba(255, 255, 255, 0.90)),
         url('/img/Phone.png');
 }
 
@@ -173,12 +173,12 @@ a {
 }
 
 .right-4::before {
-    right: -10px;
+    right: -20px;
     border-color: transparent transparent transparent #CCD5AE;
 }
 
 .left-4::before {
-    left: -10px;
+    left: -20px;
     border-color: transparent #E9EDC9 transparent transparent;
 }
 
@@ -236,4 +236,38 @@ a {
     .right-4 {
         left: 0%;
     }
+}
+
+/* Timetable */
+.horizontal-timeline {
+    height: 250px;
+    border-top: 3px solid #CCD5AE;
+    border-bottom: 3px solid #CCD5AE;
+}
+
+.horizontal-timeline h5{
+    font-family: HelloHoney;
+    font-size: 32pt;
+}
+
+.horizontal-timeline p{
+    font-family: FarmHouseTall;
+    font-size: 16pt;
+}
+
+.horizontal-timeline .items .items-list {
+    position: relative;
+    text-align: center;
+    margin-right: 0;
+    display: inline-block;
+    width: 310px;
+    padding-top: 45px;
+}
+
+.horizontal-timeline .items .items-list:before {
+    content: "";
+    position: absolute;
+    height: 36px;
+    border-right: 2px dashed #CCD5AE;
+    top: 0;
 }
