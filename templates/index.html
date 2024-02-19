@@ -351,7 +351,7 @@
 
         <div class="row pt-5" id="RSVP">
             <div class="col-md-7 col-sm-12 mb-3">
-                <form action="https://fabform.io/f/Dgj_EVN" method="post">
+                <form action="https://api.staticforms.xyz/submit" method="post">
                     <div class="card" style="margin-top: 30px;">
                         <div class="card-body">
                             <div class="text-center category-divider">
@@ -362,7 +362,7 @@
                             <div class="row mt-3">
                                 <div class="col">
                                     <div class="form-floating">
-                                        <input name="firstName" type="text" class="form-control"
+                                        <input name="$firstName" type="text" class="form-control"
                                             id="floatingInputFirstName" required>
                                         <label for="floatingInputFirstName">{{ "FIRST_NAME" | translate }}</label>
                                     </div>
@@ -370,7 +370,7 @@
 
                                 <div class="col">
                                     <div class="form-floating">
-                                        <input name="lastName" type="text" class="form-control"
+                                        <input name="$lastName" type="text" class="form-control"
                                             id="floatingInputLastName" required>
                                         <label for="floatingInputLastName">{{ "LAST_NAME" | translate }}</label>
                                     </div>
@@ -380,7 +380,7 @@
                             <div class="row mt-3">
                                 <div class="col">
                                     <div class="form-floating">
-                                        <input name="email" type="email" class="form-control" id="floatingInputEmail"
+                                        <input name="$email" type="email" class="form-control" id="floatingInputEmail"
                                             required>
                                         <label for="floatingInputEmail">{{ "EMAIL" | translate }}</label>
                                     </div>
@@ -388,7 +388,7 @@
 
                                 <div class="col">
                                     <div class="form-floating">
-                                        <input name="phoneNumber" type="tel" class="form-control"
+                                        <input name="$phoneNumber" type="tel" class="form-control"
                                             id="floatingInputPhone" required>
                                         <label for="floatingInputPhone">{{ "PHONE_NUMBER" | translate }}</label>
                                     </div>
@@ -398,7 +398,7 @@
                             <div class="row">
                                 <div class="col-md-6 col-sm-12 mt-3">
                                     <div class="form-floating">
-                                        <select required name="howManyInvited" class="form-select"
+                                        <select required name="$howManyInvited" class="form-select"
                                             id="floatingSelectInvite">
                                             {{ "PLEASE_SELECT" | translate_select("disabled selected value=\"\"") }}
                                             {{ "ONE" | translate_select("value=\"1\"") }}
@@ -414,7 +414,7 @@
 
                                 <div class="col-md-6 col-sm-12 mt-3">
                                     <div class="form-floating">
-                                        <select required name="howManyAttend" class="form-select"
+                                        <select required name="$howManyAttend" class="form-select"
                                             id="floatingSelectAttend">
                                             {{ "PLEASE_SELECT" | translate_select("disabled selected value=\"\"") }}
                                             {{ "NONE" | translate_select("value=\"0\"") }}
@@ -462,13 +462,13 @@
                             </div>
 
                             <div class="form-floating mt-3">
-                                <textarea name="attendeeNames" class="form-control" id="floatingTextareaNames"
+                                <textarea name="$attendeeNames" class="form-control" id="floatingTextareaNames"
                                     style="height: 100px"></textarea>
                                 <label for="floatingTextareaNames">{{ "PROVIDE_NAMES" | translate }}</label>
                             </div>
 
                             <div class="form-floating mt-3">
-                                <textarea name="attendeeDietary" class="form-control" id="floatingTextareaDietary"
+                                <textarea name="$attendeeDietary" class="form-control" id="floatingTextareaDietary"
                                     style="height: 100px"></textarea>
                                 <label for="floatingTextareaDietary">{{ "DIETARY_REQUIREMENTS" | translate
                                     }}</label>
@@ -479,6 +479,11 @@
                                 translate }}</button>
                         </div>
                     </div>
+                    <input type="hidden" name="accessKey" value="6cbbd2e5-3be3-41fe-92d1-dd91e237fb83">
+                    <input type="hidden" name="replyTo" value="@">
+                    <input type="hidden" name="subject" value="New RSVP!"/>
+                    <input type="hidden" name="redirectTo" value="https://www.soontobesmits.co.uk/?sentRSVP"> 
+                    <input type="text" name="honeypot" style="display: none;">
                 </form>
             </div>
             <div class="col-md-5 col-sm-12">

@@ -1447,7 +1447,7 @@
 
         <div class="row pt-5" id="RSVP">
             <div class="col-md-7 col-sm-12 mb-3">
-                <form action="https://fabform.io/f/Dgj_EVN" method="post">
+                <form action="https://api.staticforms.xyz/submit" method="post">
                     <div class="card" style="margin-top: 30px;">
                         <div class="card-body">
                             <div class="text-center category-divider">
@@ -1458,7 +1458,7 @@
                             <div class="row mt-3">
                                 <div class="col">
                                     <div class="form-floating">
-                                        <input name="firstName" type="text" class="form-control"
+                                        <input name="$firstName" type="text" class="form-control"
                                             id="floatingInputFirstName" required>
                                         <label for="floatingInputFirstName"><span lang="en">First Name</span><span class="hidden" lang="nl">Voornaam</span></label>
                                     </div>
@@ -1466,7 +1466,7 @@
 
                                 <div class="col">
                                     <div class="form-floating">
-                                        <input name="lastName" type="text" class="form-control"
+                                        <input name="$lastName" type="text" class="form-control"
                                             id="floatingInputLastName" required>
                                         <label for="floatingInputLastName"><span lang="en">Last Name</span><span class="hidden" lang="nl">Achternaam</span></label>
                                     </div>
@@ -1476,7 +1476,7 @@
                             <div class="row mt-3">
                                 <div class="col">
                                     <div class="form-floating">
-                                        <input name="email" type="email" class="form-control" id="floatingInputEmail"
+                                        <input name="$email" type="email" class="form-control" id="floatingInputEmail"
                                             required>
                                         <label for="floatingInputEmail"><span lang="en">Email</span><span class="hidden" lang="nl">Email</span></label>
                                     </div>
@@ -1484,7 +1484,7 @@
 
                                 <div class="col">
                                     <div class="form-floating">
-                                        <input name="phoneNumber" type="tel" class="form-control"
+                                        <input name="$phoneNumber" type="tel" class="form-control"
                                             id="floatingInputPhone" required>
                                         <label for="floatingInputPhone"><span lang="en">Phone Number</span><span class="hidden" lang="nl">Telefoonnummer</span></label>
                                     </div>
@@ -1494,7 +1494,7 @@
                             <div class="row">
                                 <div class="col-md-6 col-sm-12 mt-3">
                                     <div class="form-floating">
-                                        <select required name="howManyInvited" class="form-select"
+                                        <select required name="$howManyInvited" class="form-select"
                                             id="floatingSelectInvite">
                                             
     <option disabled selected value="" lang="en">Please select</option>
@@ -1527,7 +1527,7 @@
 
                                 <div class="col-md-6 col-sm-12 mt-3">
                                     <div class="form-floating">
-                                        <select required name="howManyAttend" class="form-select"
+                                        <select required name="$howManyAttend" class="form-select"
                                             id="floatingSelectAttend">
                                             
     <option disabled selected value="" lang="en">Please select</option>
@@ -1632,13 +1632,13 @@
                             </div>
 
                             <div class="form-floating mt-3">
-                                <textarea name="attendeeNames" class="form-control" id="floatingTextareaNames"
+                                <textarea name="$attendeeNames" class="form-control" id="floatingTextareaNames"
                                     style="height: 100px"></textarea>
                                 <label for="floatingTextareaNames"><span lang="en">Please provide their names below</span><span class="hidden" lang="nl">Vul hier a.u.b. hun namen in</span></label>
                             </div>
 
                             <div class="form-floating mt-3">
-                                <textarea name="attendeeDietary" class="form-control" id="floatingTextareaDietary"
+                                <textarea name="$attendeeDietary" class="form-control" id="floatingTextareaDietary"
                                     style="height: 100px"></textarea>
                                 <label for="floatingTextareaDietary"><span lang="en">Does anyone have any dietary requirements?</span><span class="hidden" lang="nl">Heeft iemand dieetwensen of -beperkingen?</span></label>
                             </div>
@@ -1646,6 +1646,11 @@
                             <button id="RSVPButton" class="btn btn-primary mt-3 w-100" type="submit"><span lang="en">Submit RSVP</span><span class="hidden" lang="nl">Verstuur RSVP</span></button>
                         </div>
                     </div>
+                    <input type="hidden" name="accessKey" value="6cbbd2e5-3be3-41fe-92d1-dd91e237fb83">
+                    <input type="hidden" name="replyTo" value="@">
+                    <input type="hidden" name="subject" value="New RSVP!"/>
+                    <input type="hidden" name="redirectTo" value="https://www.soontobesmits.co.uk/?sentRSVP"> 
+                    <input type="text" name="honeypot" style="display: none;">
                 </form>
             </div>
             <div class="col-md-5 col-sm-12">
