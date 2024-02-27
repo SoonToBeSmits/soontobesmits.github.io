@@ -125,7 +125,7 @@ CONTENT = {
     'TIMELINE': {'en': "Timeline", 'nl': "Tijdlijn"},
     'timeline_items': [
         {
-            'time': "13:00",
+            'time': "13:30",
             'description': {
                 'en': "Guests arrive at the venue and are seated",
                 'nl': "Gasten arriveren op de locatie en nemen plaats"
@@ -153,7 +153,7 @@ CONTENT = {
             }
         },
         {
-            'time': "17:45",
+            'time': "18:15",
             'description': {
                 'en': "Start of the speeches and tears will flow",
                 'nl': "Begin van de toespraken en het vloeien van tranen"
@@ -843,10 +843,10 @@ CONTENT = {
             'name': {'en': "What time should I arrive?", 'nl': "Hoe laat word ik verwacht?"},
             'description': {
                 'en': """
-                    Help us get the party started as scheduled! We recommend that you arrive at 13:00, which is an 
+                    Help us get the party started as scheduled! We recommend that you arrive at 13:30, which is an 
                     hour before the start of the ceremony, to make sure everyone is seated on time""",
                 'nl': """
-                    Help ons het feest op tijd in gang te krijgen! We raden je aan om 13.00 uur aanwezig te zijn, 
+                    Help ons het feest op tijd in gang te krijgen! We raden je aan om 13.30 uur aanwezig te zijn, 
                     wat een uur voor aanvang van de ceremonie is, om er zeker van te zijn dat iedereen op tijd zit
                 """,
             }
